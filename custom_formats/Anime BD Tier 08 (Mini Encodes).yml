@@ -14,7 +14,7 @@ conditions:
 - name: Bluray Remux
   negate: false
   required: true
-  source: bluray_remux
+  source: bluray_raw
   type: source
 - name: AkihitoSubs
   negate: false
