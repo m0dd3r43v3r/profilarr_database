@@ -1,0 +1,156 @@
+name: Anime Web Tier 04 (Official Subs)
+description: Matches release groups who fall under Anime Web Tier 04 (Official Subs)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: BlueLobster
+  negate: false
+  required: false
+  pattern: \b(BlueLobster)\b
+  type: release_group
+- name: Erai-Raws
+  negate: false
+  required: false
+  pattern: \b(Erai-raws)\b
+  type: release_group
+- name: GST
+  negate: false
+  required: false
+  pattern: \b(GST)\b
+  type: release_group
+- name: HorribleRips
+  negate: false
+  required: false
+  pattern: \b(HorribleRips)\b
+  type: release_group
+- name: HorribleSubs
+  negate: false
+  required: false
+  pattern: \b(HorribleSubs)\b
+  type: release_group
+- name: KAN3D2M
+  negate: false
+  required: false
+  pattern: \b(KAN3D2M)\b
+  type: release_group
+- name: KiyoshiStar
+  negate: false
+  required: false
+  pattern: \b(KS|KiyoshiStar)\b
+  type: release_group
+- name: Lia
+  negate: false
+  required: false
+  pattern: \[Lia\]|-Lia\b
+  type: release_group
+- name: NanDesuKa
+  negate: false
+  required: false
+  pattern: \b(NanDesuKa)\b
+  type: release_group
+- name: URANIME
+  negate: false
+  required: false
+  pattern: \b(URANIME)\b
+  type: release_group
+- name: VARYG
+  negate: false
+  required: false
+  pattern: \b(VARYG)\b
+  type: release_group
+- name: ZigZag
+  negate: false
+  required: false
+  pattern: "\\[ZigZag\\]|-ZigZab\b"
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: BlueLobster
+    negate: false
+    pattern: \b(BlueLobster)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Erai-Raws
+    negate: false
+    pattern: \b(Erai-raws)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: GST
+    negate: false
+    pattern: \b(GST)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: HorribleRips
+    negate: false
+    pattern: \b(HorribleRips)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: HorribleSubs
+    negate: false
+    pattern: \b(HorribleSubs)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: KAN3D2M
+    negate: false
+    pattern: \b(KAN3D2M)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: KiyoshiStar
+    negate: false
+    pattern: \b(KS|KiyoshiStar)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Lia
+    negate: false
+    pattern: \[Lia\]|-Lia\b
+    required: false
+    type: release_group
+  - matches: true
+    name: NanDesuKa
+    negate: false
+    pattern: \b(NanDesuKa)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: URANIME
+    negate: false
+    pattern: \b(URANIME)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: VARYG
+    negate: false
+    pattern: \b(VARYG)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: ZigZag
+    negate: false
+    pattern: "\\[ZigZag\\]|-ZigZab\b"
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-WEBDL
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

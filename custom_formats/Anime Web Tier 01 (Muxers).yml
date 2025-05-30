@@ -1,0 +1,178 @@
+name: Anime Web Tier 01 (Muxers)
+description: Matches release groups who fall under Anime Web Tier 01 (Muxers)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: Arg0
+  negate: false
+  required: false
+  pattern: \b(Arg0)\b
+  type: release_group
+- name: Arid
+  negate: false
+  required: false
+  pattern: \[Arid\]|-Arid\b
+  type: release_group
+- name: Baws
+  negate: false
+  required: false
+  pattern: \b(Baws)\b
+  type: release_group
+- name: LostYears
+  negate: false
+  required: false
+  pattern: \b(LostYears)\b
+  type: release_group
+- name: LYS1TH3A
+  negate: false
+  required: false
+  pattern: \b(LYS1TH3A)\b
+  type: release_group
+- name: McBalls
+  negate: false
+  required: false
+  pattern: \b(McBalls)\b
+  type: release_group
+- name: sam
+  negate: false
+  required: false
+  pattern: \[sam\]|-sam\b
+  type: release_group
+- name: SCY
+  negate: false
+  required: false
+  pattern: \b(SCY)\b
+  type: release_group
+- name: Setsugen
+  negate: false
+  required: false
+  pattern: \b(Setsugen)\b
+  type: release_group
+- name: smol
+  negate: false
+  required: false
+  pattern: \[smol\]|-smol\b
+  type: release_group
+- name: SoM
+  negate: false
+  required: false
+  pattern: \[SoM\]|-SoM\b
+  type: release_group
+- name: Vodes
+  negate: false
+  required: false
+  pattern: \[Vodes\]|(?<!Not)-Vodes\b
+  type: release_group
+- name: Z4ST1N
+  negate: false
+  required: false
+  pattern: \b(Z4ST1N)\b
+  type: release_group
+- name: ZeroBuild
+  negate: false
+  required: false
+  pattern: \b(ZeroBuild)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: Arg0
+    negate: false
+    pattern: \b(Arg0)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Arid
+    negate: false
+    pattern: \[Arid\]|-Arid\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Baws
+    negate: false
+    pattern: \b(Baws)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: LostYears
+    negate: false
+    pattern: \b(LostYears)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: LYS1TH3A
+    negate: false
+    pattern: \b(LYS1TH3A)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: McBalls
+    negate: false
+    pattern: \b(McBalls)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: sam
+    negate: false
+    pattern: \[sam\]|-sam\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SCY
+    negate: false
+    pattern: \b(SCY)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Setsugen
+    negate: false
+    pattern: \b(Setsugen)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: smol
+    negate: false
+    pattern: \[smol\]|-smol\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SoM
+    negate: false
+    pattern: \[SoM\]|-SoM\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Vodes
+    negate: false
+    pattern: \[Vodes\]|(?<!Not)-Vodes\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Z4ST1N
+    negate: false
+    pattern: \b(Z4ST1N)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: ZeroBuild
+    negate: false
+    pattern: \b(ZeroBuild)\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-WEBDL
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

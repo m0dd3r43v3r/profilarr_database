@@ -1,0 +1,222 @@
+name: Anime BD Tier 07 (P2P/Scene)
+description: Matches release groups who fall under Anime BD Tier 07 (P2P/Scene)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: A-L
+  negate: false
+  required: false
+  pattern: \b(A-L)\b
+  type: release_group
+- name: ANiHLS
+  negate: false
+  required: false
+  pattern: \b(ANiHLS)\b
+  type: release_group
+- name: CBM
+  negate: false
+  required: false
+  pattern: \b(CBM)\b
+  type: release_group
+- name: DHD
+  negate: false
+  required: false
+  pattern: \b(DHD)\b
+  type: release_group
+- name: DragsterPS
+  negate: false
+  required: false
+  pattern: \b(DragsterPS)\b
+  type: release_group
+- name: HAiKU
+  negate: false
+  required: false
+  pattern: \b(HAiKU)\b
+  type: release_group
+- name: Hark0N
+  negate: false
+  required: false
+  pattern: \b(Hark0N)\b
+  type: release_group
+- name: iAHD
+  negate: false
+  required: false
+  pattern: \b(iAHD)\b
+  type: release_group
+- name: inid4c
+  negate: false
+  required: false
+  pattern: \b(inid4c)\b
+  type: release_group
+- name: KiyoshiStar
+  negate: false
+  required: false
+  pattern: \b(KS|KiyoshiStar)\b
+  type: release_group
+- name: MCR
+  negate: false
+  required: false
+  pattern: \b(MCR)\b
+  type: release_group
+- name: NPC
+  negate: false
+  required: false
+  pattern: \[NPC\]|-NPC\b
+  type: release_group
+- name: RedBlade
+  negate: false
+  required: false
+  pattern: \b(RedBlade)\b
+  type: release_group
+- name: RH
+  negate: false
+  required: false
+  pattern: \b(RH)\b
+  type: release_group
+- name: SEV
+  negate: false
+  required: false
+  pattern: \b(SEV)\b
+  type: release_group
+- name: STRiFE
+  negate: false
+  required: false
+  pattern: \[STRiFE\]|-STRiFE\b
+  type: release_group
+- name: TENEIGHTY
+  negate: false
+  required: false
+  pattern: \b(TENEIGHTY)\b
+  type: release_group
+- name: WaLMaRT
+  negate: false
+  required: false
+  pattern: \b(WaLMaRT)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: A-L
+    negate: false
+    pattern: \b(A-L)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: ANiHLS
+    negate: false
+    pattern: \b(ANiHLS)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: CBM
+    negate: false
+    pattern: \b(CBM)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: DHD
+    negate: false
+    pattern: \b(DHD)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: DragsterPS
+    negate: false
+    pattern: \b(DragsterPS)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: HAiKU
+    negate: false
+    pattern: \b(HAiKU)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Hark0N
+    negate: false
+    pattern: \b(Hark0N)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: iAHD
+    negate: false
+    pattern: \b(iAHD)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: inid4c
+    negate: false
+    pattern: \b(inid4c)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: KiyoshiStar
+    negate: false
+    pattern: \b(KS|KiyoshiStar)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: MCR
+    negate: false
+    pattern: \b(MCR)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: NPC
+    negate: false
+    pattern: \[NPC\]|-NPC\b
+    required: false
+    type: release_group
+  - matches: true
+    name: RedBlade
+    negate: false
+    pattern: \b(RedBlade)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: RH
+    negate: false
+    pattern: \b(RH)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SEV
+    negate: false
+    pattern: \b(SEV)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: STRiFE
+    negate: false
+    pattern: \[STRiFE\]|-STRiFE\b
+    required: false
+    type: release_group
+  - matches: true
+    name: TENEIGHTY
+    negate: false
+    pattern: \b(TENEIGHTY)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: WaLMaRT
+    negate: false
+    pattern: \b(WaLMaRT)\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-Bluray
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

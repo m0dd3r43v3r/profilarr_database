@@ -1,0 +1,24 @@
+name: WEB Tier 03
+description: Matches release groups who fall under WEB Tier 03
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+tests:
+- conditionResults: []
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-BYNDR
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

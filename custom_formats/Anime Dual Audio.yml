@@ -1,0 +1,50 @@
+name: Anime Dual Audio
+description: Matches release groups who fall under Anime Dual Audio
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: Dual Audio
+  negate: false
+  required: true
+  pattern: dual[ ._-]?(audio)|[([]dual[])]|\b(JA|ZH|KO)(?= ?\+ ?.*?\b(EN))|\b(EN)(?=
+    ?\+ ?.*?\b(JA|ZH|KO))|\b(Japanese|Chinese|Korean) ?[ ._\+&-] ?\b(English)|\b(English)
+    ?[ ._\+&-] ?\b(Japanese|Chinese|Korean)|\b(\d{3,4}(p|i)|4K|U(ltra)?HD)\b.*\b(DUAL)\b(?!.*\(|\))
+  type: release_group
+- name: Not Single Language Only
+  negate: true
+  required: true
+  pattern: \[(JA|ZH|KO)\]
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: Dual Audio
+    negate: false
+    pattern: dual[ ._-]?(audio)|[([]dual[])]|\b(JA|ZH|KO)(?= ?\+ ?.*?\b(EN))|\b(EN)(?=
+      ?\+ ?.*?\b(JA|ZH|KO))|\b(Japanese|Chinese|Korean) ?[ ._\+&-] ?\b(English)|\b(English)
+      ?[ ._\+&-] ?\b(Japanese|Chinese|Korean)|\b(\d{3,4}(p|i)|4K|U(ltra)?HD)\b.*\b(DUAL)\b(?!.*\(|\))
+    required: true
+    type: release_group
+  - matches: true
+    name: Not Single Language Only
+    negate: true
+    pattern: \[(JA|ZH|KO)\]
+    required: true
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-Dual Audio
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

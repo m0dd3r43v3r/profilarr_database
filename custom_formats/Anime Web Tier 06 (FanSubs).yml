@@ -1,0 +1,90 @@
+name: Anime Web Tier 06 (FanSubs)
+description: Matches release groups who fall under Anime Web Tier 06 (FanSubs)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: Asenshi
+  negate: false
+  required: false
+  pattern: \b(Asenshi)\b
+  type: release_group
+- name: Chihiro
+  negate: false
+  required: false
+  pattern: \[Chihiro\]|-Chihiro\b
+  type: release_group
+- name: Commie
+  negate: false
+  required: false
+  pattern: \b(Commie)\b
+  type: release_group
+- name: DameDesuYo
+  negate: false
+  required: false
+  pattern: \b(DameDesuYo)\b
+  type: release_group
+- name: Doki
+  negate: false
+  required: false
+  pattern: \[Doki\]|-Doki\b
+  type: release_group
+- name: Tsundere
+  negate: false
+  required: false
+  pattern: \[Tsundere\]|-Tsundere(?!-)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: Asenshi
+    negate: false
+    pattern: \b(Asenshi)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Chihiro
+    negate: false
+    pattern: \[Chihiro\]|-Chihiro\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Commie
+    negate: false
+    pattern: \b(Commie)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: DameDesuYo
+    negate: false
+    pattern: \b(DameDesuYo)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Doki
+    negate: false
+    pattern: \[Doki\]|-Doki\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Tsundere
+    negate: false
+    pattern: \[Tsundere\]|-Tsundere(?!-)\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-WEBDL
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

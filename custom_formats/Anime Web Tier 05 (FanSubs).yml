@@ -1,0 +1,90 @@
+name: Anime Web Tier 05 (FanSubs)
+description: Matches release groups who fall under Anime Web Tier 05 (FanSubs)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: 9volt
+  negate: false
+  required: false
+  pattern: \b(9volt)\b
+  type: release_group
+- name: GJM
+  negate: false
+  required: false
+  pattern: \b(GJM)\b
+  type: release_group
+- name: Kaleido
+  negate: false
+  required: false
+  pattern: \b(Kaleido)\b
+  type: release_group
+- name: Kantai
+  negate: false
+  required: false
+  pattern: \[Kantai\]|-Kantai\b
+  type: release_group
+- name: SobsPlease
+  negate: false
+  required: false
+  pattern: \b(SobsPlease)\b
+  type: release_group
+- name: Some-Stuffs
+  negate: false
+  required: false
+  pattern: \b(Some-Stuffs)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: 9volt
+    negate: false
+    pattern: \b(9volt)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: GJM
+    negate: false
+    pattern: \b(GJM)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Kaleido
+    negate: false
+    pattern: \b(Kaleido)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Kantai
+    negate: false
+    pattern: \[Kantai\]|-Kantai\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SobsPlease
+    negate: false
+    pattern: \b(SobsPlease)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Some-Stuffs
+    negate: false
+    pattern: \b(Some-Stuffs)\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-WEBDL
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

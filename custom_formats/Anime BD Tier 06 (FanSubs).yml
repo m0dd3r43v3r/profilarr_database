@@ -1,0 +1,431 @@
+name: Anime BD Tier 06 (FanSubs)
+description: Matches release groups who fall under Anime BD Tier 06 (FanSubs)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: Afro
+  negate: false
+  required: false
+  pattern: \[Afro\]|-Afro\b
+  type: release_group
+- name: Akai
+  negate: false
+  required: false
+  pattern: \[Akai\]|-Akai\b
+  type: release_group
+- name: Almighty
+  negate: false
+  required: false
+  pattern: \[Almighty\]|-Almighty\b
+  type: release_group
+- name: ANE
+  negate: false
+  required: false
+  pattern: \[ANE\]|-ANE$
+  type: release_group
+- name: Asenshi
+  negate: false
+  required: false
+  pattern: \b(Asenshi)\b
+  type: release_group
+- name: BlurayDesuYo
+  negate: false
+  required: false
+  pattern: \b(BlurayDesuYo)\b
+  type: release_group
+- name: Bunny-Apocalypse
+  negate: false
+  required: false
+  pattern: \b(Bunny-Apocalypse)\b
+  type: release_group
+- name: CH
+  negate: false
+  required: false
+  pattern: \[CH\]|-CH\b
+  type: release_group
+- name: EJF
+  negate: false
+  required: false
+  pattern: \b(EJF)\b
+  type: release_group
+- name: Exiled-Destiny
+  negate: false
+  required: false
+  pattern: \b(Exiled-Destiny|E-D)\b
+  type: release_group
+- name: FFF
+  negate: false
+  required: false
+  pattern: \b(FFF)\b
+  type: release_group
+- name: Final8
+  negate: false
+  required: false
+  pattern: \b(Final8)\b
+  type: release_group
+- name: GS
+  negate: false
+  required: false
+  pattern: \b(GS)\b
+  type: release_group
+- name: Harunatsu
+  negate: false
+  required: false
+  pattern: \[Harunatsu\]|-Harunatsu\b
+  type: release_group
+- name: Impatience
+  negate: false
+  required: false
+  pattern: \[Impatience\]|-Impatience\b
+  type: release_group
+- name: Inka-Subs
+  negate: false
+  required: false
+  pattern: \b(Inka-Subs)\b
+  type: release_group
+- name: Judgement
+  negate: false
+  required: false
+  pattern: \[Judgment\]|-Judgment\b
+  type: release_group
+- name: Kantai
+  negate: false
+  required: false
+  pattern: \[Kantai\]|-Kantai\b
+  type: release_group
+- name: LCE
+  negate: false
+  required: false
+  pattern: \b(LCE)\b
+  type: release_group
+- name: Licca
+  negate: false
+  required: false
+  pattern: \b(Licca)\b
+  type: release_group
+- name: Nii-sama
+  negate: false
+  required: false
+  pattern: \[Nii-sama\]|-Nii-sama\b
+  type: release_group
+- name: niizk
+  negate: false
+  required: false
+  pattern: \b(niizk)\b
+  type: release_group
+- name: Nishi-Taku
+  negate: false
+  required: false
+  pattern: \b(Nishi-Taku)\b
+  type: release_group
+- name: OnDeed
+  negate: false
+  required: false
+  pattern: \b(OnDeed)\b
+  type: release_group
+- name: orz
+  negate: false
+  required: false
+  pattern: \b(orz)\b
+  type: release_group
+- name: PAS
+  negate: false
+  required: false
+  pattern: \b(PAS)\b
+  type: release_group
+- name: peachflavored
+  negate: false
+  required: false
+  pattern: \b(peachflavored)\b
+  type: release_group
+- name: Saizen
+  negate: false
+  required: false
+  pattern: \b(Saizen)\b
+  type: release_group
+- name: SCP-2223
+  negate: false
+  required: false
+  pattern: \b(SCP-2223)\b
+  type: release_group
+- name: SHiN-gx
+  negate: false
+  required: false
+  pattern: \b(SHiN-gx)\b
+  type: release_group
+- name: SmugCat
+  negate: false
+  required: false
+  pattern: \b(SmugCat)\b
+  type: release_group
+- name: Soldado
+  negate: false
+  required: false
+  pattern: \[Soldado\]|-Soldado\b
+  type: release_group
+- name: Sushi
+  negate: false
+  required: false
+  pattern: \[Sushi\]|-Sushi\b
+  type: release_group
+- name: Vivid
+  negate: false
+  required: false
+  pattern: \[Vivid\]|-Vivid\b
+  type: release_group
+- name: Watashi
+  negate: false
+  required: false
+  pattern: \[Watashi\]|-Watashi\b
+  type: release_group
+- name: Yabai
+  negate: false
+  required: false
+  pattern: \[Yabai\]|-Yabai\b
+  type: release_group
+- name: Zurako
+  negate: false
+  required: false
+  pattern: \b(Zurako)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: Afro
+    negate: false
+    pattern: \[Afro\]|-Afro\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Akai
+    negate: false
+    pattern: \[Akai\]|-Akai\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Almighty
+    negate: false
+    pattern: \[Almighty\]|-Almighty\b
+    required: false
+    type: release_group
+  - matches: true
+    name: ANE
+    negate: false
+    pattern: \[ANE\]|-ANE$
+    required: false
+    type: release_group
+  - matches: true
+    name: Asenshi
+    negate: false
+    pattern: \b(Asenshi)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: BlurayDesuYo
+    negate: false
+    pattern: \b(BlurayDesuYo)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Bunny-Apocalypse
+    negate: false
+    pattern: \b(Bunny-Apocalypse)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: CH
+    negate: false
+    pattern: \[CH\]|-CH\b
+    required: false
+    type: release_group
+  - matches: true
+    name: EJF
+    negate: false
+    pattern: \b(EJF)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Exiled-Destiny
+    negate: false
+    pattern: \b(Exiled-Destiny|E-D)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: FFF
+    negate: false
+    pattern: \b(FFF)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Final8
+    negate: false
+    pattern: \b(Final8)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: GS
+    negate: false
+    pattern: \b(GS)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Harunatsu
+    negate: false
+    pattern: \[Harunatsu\]|-Harunatsu\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Impatience
+    negate: false
+    pattern: \[Impatience\]|-Impatience\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Inka-Subs
+    negate: false
+    pattern: \b(Inka-Subs)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Judgement
+    negate: false
+    pattern: \[Judgment\]|-Judgment\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Kantai
+    negate: false
+    pattern: \[Kantai\]|-Kantai\b
+    required: false
+    type: release_group
+  - matches: true
+    name: LCE
+    negate: false
+    pattern: \b(LCE)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Licca
+    negate: false
+    pattern: \b(Licca)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Nii-sama
+    negate: false
+    pattern: \[Nii-sama\]|-Nii-sama\b
+    required: false
+    type: release_group
+  - matches: true
+    name: niizk
+    negate: false
+    pattern: \b(niizk)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Nishi-Taku
+    negate: false
+    pattern: \b(Nishi-Taku)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: OnDeed
+    negate: false
+    pattern: \b(OnDeed)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: orz
+    negate: false
+    pattern: \b(orz)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: PAS
+    negate: false
+    pattern: \b(PAS)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: peachflavored
+    negate: false
+    pattern: \b(peachflavored)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Saizen
+    negate: false
+    pattern: \b(Saizen)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SCP-2223
+    negate: false
+    pattern: \b(SCP-2223)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SHiN-gx
+    negate: false
+    pattern: \b(SHiN-gx)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SmugCat
+    negate: false
+    pattern: \b(SmugCat)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Soldado
+    negate: false
+    pattern: \[Soldado\]|-Soldado\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Sushi
+    negate: false
+    pattern: \[Sushi\]|-Sushi\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Vivid
+    negate: false
+    pattern: \[Vivid\]|-Vivid\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Watashi
+    negate: false
+    pattern: \[Watashi\]|-Watashi\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Yabai
+    negate: false
+    pattern: \[Yabai\]|-Yabai\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Zurako
+    negate: false
+    pattern: \b(Zurako)\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-Bluray
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

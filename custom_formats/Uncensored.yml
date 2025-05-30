@@ -1,0 +1,35 @@
+name: Uncensored
+description: Matches release groups who fall under Uncensored
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: Uncensored
+  negate: false
+  required: true
+  pattern: \b(Uncut|Unrated|Uncensored|AT[-_. ]?X)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: Uncensored
+    negate: false
+    pattern: \b(Uncut|Unrated|Uncensored|AT[-_. ]?X)\b
+    required: true
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-Uncensored
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

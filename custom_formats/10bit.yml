@@ -1,0 +1,46 @@
+name: 10bit
+description: Matches release groups who fall under 10bit
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: 10bit
+  negate: false
+  required: false
+  pattern: 10[.-]?bit
+  type: release_group
+- name: hi10p
+  negate: false
+  required: false
+  pattern: hi10p
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: 10bit
+    negate: false
+    pattern: 10[.-]?bit
+    required: false
+    type: release_group
+  - matches: true
+    name: hi10p
+    negate: false
+    pattern: hi10p
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-10bit
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

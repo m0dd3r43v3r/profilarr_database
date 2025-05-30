@@ -1,0 +1,123 @@
+name: Anime BD Tier 05 (Remuxes)
+description: Matches release groups who fall under Anime BD Tier 05 (Remuxes)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: BluDragon
+  negate: false
+  required: false
+  pattern: \b(BluDragon)\b
+  type: release_group
+- name: D4C
+  negate: false
+  required: false
+  pattern: \b(D4C)\b
+  type: release_group
+- name: E.N.D
+  negate: false
+  required: false
+  pattern: \b(E[.-]N[.-]D)\b
+  type: release_group
+- name: PMR
+  negate: false
+  required: false
+  pattern: ^(?=.*\b(PMR)\b)(?=.*\b(Remux)\b)
+  type: release_group
+- name: Raizel
+  negate: false
+  required: false
+  pattern: \b(Raizel)\b
+  type: release_group
+- name: REVO
+  negate: false
+  required: false
+  pattern: \b(REVO)\b
+  type: release_group
+- name: SRLS
+  negate: false
+  required: false
+  pattern: \b(SRLS)\b
+  type: release_group
+- name: TTGA
+  negate: false
+  required: false
+  pattern: \b(TTGA)\b
+  type: release_group
+- name: VULCAN
+  negate: false
+  required: false
+  pattern: \b(VULCAN)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: BluDragon
+    negate: false
+    pattern: \b(BluDragon)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: D4C
+    negate: false
+    pattern: \b(D4C)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: E.N.D
+    negate: false
+    pattern: \b(E[.-]N[.-]D)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: PMR
+    negate: false
+    pattern: ^(?=.*\b(PMR)\b)(?=.*\b(Remux)\b)
+    required: false
+    type: release_group
+  - matches: true
+    name: Raizel
+    negate: false
+    pattern: \b(Raizel)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: REVO
+    negate: false
+    pattern: \b(REVO)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SRLS
+    negate: false
+    pattern: \b(SRLS)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: TTGA
+    negate: false
+    pattern: \b(TTGA)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: VULCAN
+    negate: false
+    pattern: \b(VULCAN)\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-Bluray
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

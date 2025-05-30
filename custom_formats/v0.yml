@@ -1,0 +1,35 @@
+name: v0
+description: Matches release groups who fall under v0
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: v0
+  negate: false
+  required: true
+  pattern: (\b|\d)(v0)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: v0
+    negate: false
+    pattern: (\b|\d)(v0)\b
+    required: true
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-v0
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

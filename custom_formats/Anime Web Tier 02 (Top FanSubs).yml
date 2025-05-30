@@ -1,0 +1,222 @@
+name: Anime Web Tier 02 (Top FanSubs)
+description: Matches release groups who fall under Anime Web Tier 02 (Top FanSubs)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: '0x539'
+  negate: false
+  required: false
+  pattern: \b(0x539)\b
+  type: release_group
+- name: Asakura
+  negate: false
+  required: false
+  pattern: \[Asakura\]|-Asakura\b
+  type: release_group
+- name: Cyan
+  negate: false
+  required: false
+  pattern: \[Cyan\]|-Cyan\b
+  type: release_group
+- name: Dae
+  negate: false
+  required: false
+  pattern: \[Dae\]|-Dae\b
+  type: release_group
+- name: Foxtrot
+  negate: false
+  required: false
+  pattern: \[Foxtrot\]|-Foxtrot\b
+  type: release_group
+- name: Gao
+  negate: false
+  required: false
+  pattern: \[Gao\]|-Gao\b
+  type: release_group
+- name: GSK_kun
+  negate: false
+  required: false
+  pattern: \b(GSK[._-]kun)\b
+  type: release_group
+- name: Half-Baked
+  negate: false
+  required: false
+  pattern: \b(Half-Baked)\b
+  type: release_group
+- name: HatSubs
+  negate: false
+  required: false
+  pattern: \b(HatSubs)\b
+  type: release_group
+- name: MALD
+  negate: false
+  required: false
+  pattern: \b(MALD)\b
+  type: release_group
+- name: MTBB
+  negate: false
+  required: false
+  pattern: \b(MTBB)\b
+  type: release_group
+- name: Not-Vodes
+  negate: false
+  required: false
+  pattern: \[Not-Vodes\]|-Not-Vodes\b
+  type: release_group
+- name: Okay-Subs
+  negate: false
+  required: false
+  pattern: \b(Okay-Subs)\b
+  type: release_group
+- name: Pizza
+  negate: false
+  required: false
+  pattern: \[Pizza\]|-Pizza\b
+  type: release_group
+- name: Reza
+  negate: false
+  required: false
+  pattern: \b(Reza)\b
+  type: release_group
+- name: Slyfox
+  negate: false
+  required: false
+  pattern: \b(Slyfox)\b
+  type: release_group
+- name: SoLCE
+  negate: false
+  required: false
+  pattern: \b(SoLCE)\b
+  type: release_group
+- name: Tenshi
+  negate: false
+  required: false
+  pattern: \[tenshi\]|-tenshi$
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: '0x539'
+    negate: false
+    pattern: \b(0x539)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Asakura
+    negate: false
+    pattern: \[Asakura\]|-Asakura\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Cyan
+    negate: false
+    pattern: \[Cyan\]|-Cyan\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Dae
+    negate: false
+    pattern: \[Dae\]|-Dae\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Foxtrot
+    negate: false
+    pattern: \[Foxtrot\]|-Foxtrot\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Gao
+    negate: false
+    pattern: \[Gao\]|-Gao\b
+    required: false
+    type: release_group
+  - matches: true
+    name: GSK_kun
+    negate: false
+    pattern: \b(GSK[._-]kun)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Half-Baked
+    negate: false
+    pattern: \b(Half-Baked)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: HatSubs
+    negate: false
+    pattern: \b(HatSubs)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: MALD
+    negate: false
+    pattern: \b(MALD)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: MTBB
+    negate: false
+    pattern: \b(MTBB)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Not-Vodes
+    negate: false
+    pattern: \[Not-Vodes\]|-Not-Vodes\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Okay-Subs
+    negate: false
+    pattern: \b(Okay-Subs)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Pizza
+    negate: false
+    pattern: \[Pizza\]|-Pizza\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Reza
+    negate: false
+    pattern: \b(Reza)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Slyfox
+    negate: false
+    pattern: \b(Slyfox)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SoLCE
+    negate: false
+    pattern: \b(SoLCE)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Tenshi
+    negate: false
+    pattern: \[tenshi\]|-tenshi$
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-WEBDL
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

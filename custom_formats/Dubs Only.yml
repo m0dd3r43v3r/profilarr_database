@@ -1,0 +1,101 @@
+name: Dubs Only
+description: Matches release groups who fall under Dubs Only
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: Dubbed
+  negate: false
+  required: false
+  pattern: ^(?!.*(Dual|Multi)[-_. ]?Audio).*((?<!multi-)\b(dub(bed)?)\b|(funi|eng(lish)?)_?dub)
+  type: release_group
+- name: Golumpa
+  negate: false
+  required: false
+  pattern: \b(Golumpa)\b
+  type: release_group
+- name: KaiDubs (Not Dual Audio)
+  negate: false
+  required: false
+  pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\b(KaiDubs)\b
+  type: release_group
+- name: KamiFS
+  negate: false
+  required: false
+  pattern: \b(KamiFS)\b
+  type: release_group
+- name: KS (Not Dual Audio)
+  negate: false
+  required: false
+  pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\bKS\b
+  type: release_group
+- name: torenter69
+  negate: false
+  required: false
+  pattern: \b(torenter69)\b
+  type: release_group
+- name: Yameii
+  negate: false
+  required: false
+  pattern: \[Yameii\]|-Yameii\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: Dubbed
+    negate: false
+    pattern: ^(?!.*(Dual|Multi)[-_. ]?Audio).*((?<!multi-)\b(dub(bed)?)\b|(funi|eng(lish)?)_?dub)
+    required: false
+    type: release_group
+  - matches: true
+    name: Golumpa
+    negate: false
+    pattern: \b(Golumpa)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: KaiDubs (Not Dual Audio)
+    negate: false
+    pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\b(KaiDubs)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: KamiFS
+    negate: false
+    pattern: \b(KamiFS)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: KS (Not Dual Audio)
+    negate: false
+    pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\bKS\b
+    required: false
+    type: release_group
+  - matches: true
+    name: torenter69
+    negate: false
+    pattern: \b(torenter69)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Yameii
+    negate: false
+    pattern: \[Yameii\]|-Yameii\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-Dubbed
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

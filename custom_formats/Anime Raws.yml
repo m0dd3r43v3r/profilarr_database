@@ -1,0 +1,266 @@
+name: Anime Raws
+description: Matches release groups who fall under Anime Raws
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: AsukaRaws
+  negate: false
+  required: false
+  pattern: Asuka[ ._-]?(Raws)
+  type: release_group
+- name: Beatrice-Raws
+  negate: false
+  required: false
+  pattern: Beatrice[ ._-]?(Raws)
+  type: release_group
+- name: Daddy-Raws
+  negate: false
+  required: false
+  pattern: Daddy[ ._-]?(Raws)
+  type: release_group
+- name: Fumi-Raws
+  negate: false
+  required: false
+  pattern: Fumi[ ._-]?(Raws)
+  type: release_group
+- name: IrizaRaws
+  negate: false
+  required: false
+  pattern: Iriza[ ._-]?(Raws)
+  type: release_group
+- name: Kawaiika-Raws
+  negate: false
+  required: false
+  pattern: Kawaiika[ ._-]?(Raws)
+  type: release_group
+- name: km
+  negate: false
+  required: false
+  pattern: \[km\]|-km\b
+  type: release_group
+- name: Koi-Raws
+  negate: false
+  required: false
+  pattern: Koi[ ._-]?(Raws)
+  type: release_group
+- name: Lilith-Raws
+  negate: false
+  required: false
+  pattern: Lilith[ ._-]?(Raws)
+  type: release_group
+- name: LowPower-Raws
+  negate: false
+  required: false
+  pattern: LowPower[ ._-]?(Raws)
+  type: release_group
+- name: Moozzi2
+  negate: false
+  required: false
+  pattern: \b(Moozzi2)\b
+  type: release_group
+- name: NanakoRaws
+  negate: false
+  required: false
+  pattern: Nanako[ ._-]?(Raws)
+  type: release_group
+- name: NC-Raws
+  negate: false
+  required: false
+  pattern: NC[ ._-]?(Raws)
+  type: release_group
+- name: neko-raws
+  negate: false
+  required: false
+  pattern: neko[ ._-]?(raws)
+  type: release_group
+- name: New-raws
+  negate: false
+  required: false
+  pattern: New[ ._-]?(raws)
+  type: release_group
+- name: Ohys-Raws
+  negate: false
+  required: false
+  pattern: Ohys[ ._-]?(Raws)
+  type: release_group
+- name: Pandoratv-Raws
+  negate: false
+  required: false
+  pattern: Pandoratv[ ._-]?(Raws)
+  type: release_group
+- name: Raws-Maji
+  negate: false
+  required: false
+  pattern: \b(Raws-Maji)\b
+  type: release_group
+- name: ReinForce
+  negate: false
+  required: false
+  pattern: \b(ReinForce)\b
+  type: release_group
+- name: Scryous-Raws
+  negate: false
+  required: false
+  pattern: Scryous[ ._-]?(Raws)
+  type: release_group
+- name: Seicher-Raws
+  negate: false
+  required: false
+  pattern: Seicher[ ._-]?(Raws)
+  type: release_group
+- name: Shiniori-Raws
+  negate: false
+  required: false
+  pattern: Shiniori[ ._-]?(Raws)
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: AsukaRaws
+    negate: false
+    pattern: Asuka[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Beatrice-Raws
+    negate: false
+    pattern: Beatrice[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Daddy-Raws
+    negate: false
+    pattern: Daddy[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Fumi-Raws
+    negate: false
+    pattern: Fumi[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: IrizaRaws
+    negate: false
+    pattern: Iriza[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Kawaiika-Raws
+    negate: false
+    pattern: Kawaiika[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: km
+    negate: false
+    pattern: \[km\]|-km\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Koi-Raws
+    negate: false
+    pattern: Koi[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Lilith-Raws
+    negate: false
+    pattern: Lilith[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: LowPower-Raws
+    negate: false
+    pattern: LowPower[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Moozzi2
+    negate: false
+    pattern: \b(Moozzi2)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: NanakoRaws
+    negate: false
+    pattern: Nanako[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: NC-Raws
+    negate: false
+    pattern: NC[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: neko-raws
+    negate: false
+    pattern: neko[ ._-]?(raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: New-raws
+    negate: false
+    pattern: New[ ._-]?(raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Ohys-Raws
+    negate: false
+    pattern: Ohys[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Pandoratv-Raws
+    negate: false
+    pattern: Pandoratv[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Raws-Maji
+    negate: false
+    pattern: \b(Raws-Maji)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: ReinForce
+    negate: false
+    pattern: \b(ReinForce)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Scryous-Raws
+    negate: false
+    pattern: Scryous[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Seicher-Raws
+    negate: false
+    pattern: Seicher[ ._-]?(Raws)
+    required: false
+    type: release_group
+  - matches: true
+    name: Shiniori-Raws
+    negate: false
+    pattern: Shiniori[ ._-]?(Raws)
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-AsukaRaws
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

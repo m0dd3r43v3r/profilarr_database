@@ -1,0 +1,9 @@
+name: Bulldog
+pattern: \[Bulldog\]|-Bulldog\b
+description: "Matches the release group `Bulldog` only if it is:\n\n  - Preceded by\
+  \ the start of the string (`^`), a whitespace character (`\\s`), a period (`.`),\
+  \ or a hyphen (`-`).\n\n  - Followed by a word boundary (`\\b`), ensuring it ends\
+  \ cleanly without being part of a longer word."
+tags:
+- Release Group
+tests: []

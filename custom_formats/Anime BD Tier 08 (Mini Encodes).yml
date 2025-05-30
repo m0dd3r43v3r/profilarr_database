@@ -1,0 +1,145 @@
+name: Anime BD Tier 08 (Mini Encodes)
+description: Matches release groups who fall under Anime BD Tier 08 (Mini Encodes)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: AkihitoSubs
+  negate: false
+  required: false
+  pattern: \b(AkihitoSubs)\b
+  type: release_group
+- name: Arukoru
+  negate: false
+  required: false
+  pattern: \b(Arukoru)\b
+  type: release_group
+- name: EDGE
+  negate: false
+  required: false
+  pattern: \[EDGE\]|-EDGE\b
+  type: release_group
+- name: EMBER
+  negate: false
+  required: false
+  pattern: \[EMBER\]|-EMBER\b
+  type: release_group
+- name: GHOST
+  negate: false
+  required: false
+  pattern: \[GHOST\]|-GHOST\b
+  type: release_group
+- name: Judas
+  negate: false
+  required: false
+  pattern: \[Judas\]|-Judas
+  type: release_group
+- name: naiyas
+  negate: false
+  required: false
+  pattern: \[naiyas\]|-naiyas\b
+  type: release_group
+- name: Nep_Blanc
+  negate: false
+  required: false
+  pattern: \b(Nep[ ._-]Blanc)\b
+  type: release_group
+- name: Prof
+  negate: false
+  required: false
+  pattern: \[Prof\]|-Prof\b
+  type: release_group
+- name: Shirσ
+  negate: false
+  required: false
+  pattern: \b(Shirσ)\b
+  type: release_group
+- name: YURASAKA
+  negate: false
+  required: false
+  pattern: \[YURASUKA\]|-YURASUKA\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: AkihitoSubs
+    negate: false
+    pattern: \b(AkihitoSubs)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Arukoru
+    negate: false
+    pattern: \b(Arukoru)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: EDGE
+    negate: false
+    pattern: \[EDGE\]|-EDGE\b
+    required: false
+    type: release_group
+  - matches: true
+    name: EMBER
+    negate: false
+    pattern: \[EMBER\]|-EMBER\b
+    required: false
+    type: release_group
+  - matches: true
+    name: GHOST
+    negate: false
+    pattern: \[GHOST\]|-GHOST\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Judas
+    negate: false
+    pattern: \[Judas\]|-Judas
+    required: false
+    type: release_group
+  - matches: true
+    name: naiyas
+    negate: false
+    pattern: \[naiyas\]|-naiyas\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Nep_Blanc
+    negate: false
+    pattern: \b(Nep[ ._-]Blanc)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Prof
+    negate: false
+    pattern: \[Prof\]|-Prof\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Shirσ
+    negate: false
+    pattern: \b(Shirσ)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: YURASAKA
+    negate: false
+    pattern: \[YURASUKA\]|-YURASUKA\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-Bluray
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

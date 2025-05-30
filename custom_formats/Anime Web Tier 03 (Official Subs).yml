@@ -1,0 +1,57 @@
+name: Anime Web Tier 03 (Official Subs)
+description: Matches release groups who fall under Anime Web Tier 03 (Official Subs)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: SubsPlease
+  negate: false
+  required: false
+  pattern: \b(SubsPlease)\b
+  type: release_group
+- name: SubsPlus+
+  negate: false
+  required: false
+  pattern: \b(SubsPlus\+?)\b
+  type: release_group
+- name: ZR
+  negate: false
+  required: false
+  pattern: \b(ZR)\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: SubsPlease
+    negate: false
+    pattern: \b(SubsPlease)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: SubsPlus+
+    negate: false
+    pattern: \b(SubsPlus\+?)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: ZR
+    negate: false
+    pattern: \b(ZR)\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-WEBDL
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

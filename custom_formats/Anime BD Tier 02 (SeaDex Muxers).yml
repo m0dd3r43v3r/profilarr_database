@@ -1,0 +1,508 @@
+name: Anime BD Tier 02 (SeaDex Muxers)
+description: Matches release groups who fall under Anime BD Tier 02 (SeaDex Muxers)
+tags:
+- Release Group Tier
+- Anime
+- BD
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
+- name: '0x539'
+  negate: false
+  required: false
+  pattern: \b(0x539)\b
+  type: release_group
+- name: Alt
+  negate: false
+  required: false
+  pattern: \[Alt\]|-Alt\b
+  type: release_group
+- name: ARC
+  negate: false
+  required: false
+  pattern: \[ARC\]|-ARC\b
+  type: release_group
+- name: Arid
+  negate: false
+  required: false
+  pattern: \[Arid\]|-Arid\b
+  type: release_group
+- name: aro
+  negate: false
+  required: false
+  pattern: \b(aro)\b
+  type: release_group
+- name: Baws
+  negate: false
+  required: false
+  pattern: \b(Baws)\b
+  type: release_group
+- name: BKC
+  negate: false
+  required: false
+  pattern: \b(BKC)\b
+  type: release_group
+- name: Brrrrrrr
+  negate: false
+  required: false
+  pattern: \b(Brrrrrrr)\b
+  type: release_group
+- name: Chotab
+  negate: false
+  required: false
+  pattern: \b(Chotab)\b
+  type: release_group
+- name: Crow
+  negate: false
+  required: false
+  pattern: \[Crow\]|-Crow\b
+  type: release_group
+- name: CsS
+  negate: false
+  required: false
+  pattern: \b(CsS)\b
+  type: release_group
+- name: CUNNY
+  negate: false
+  required: false
+  pattern: \b(CUNNY)\b
+  type: release_group
+- name: Cunnysseur
+  negate: false
+  required: false
+  pattern: \b(Cunnysseur)\b
+  type: release_group
+- name: D-Z0N3
+  negate: false
+  required: false
+  pattern: \b(D-Z0N3)\b
+  type: release_group
+- name: Dae
+  negate: false
+  required: false
+  pattern: \b(Dae)\b
+  type: release_group
+- name: Datte13
+  negate: false
+  required: false
+  pattern: \b(Datte13)\b
+  type: release_group
+- name: DemiHuman
+  negate: false
+  required: false
+  pattern: \[DemiHuman\]|-DemiHuman\b
+  type: release_group
+- name: Drag
+  negate: false
+  required: false
+  pattern: \[Drag\]|-Drag\b
+  type: release_group
+- name: FLFL
+  negate: false
+  required: false
+  pattern: \b(FLFL)\b
+  type: release_group
+- name: hydes
+  negate: false
+  required: false
+  pattern: \b(hydes)\b
+  type: release_group
+- name: iKaos
+  negate: false
+  required: false
+  pattern: \b(iKaos)\b
+  type: release_group
+- name: JySzE
+  negate: false
+  required: false
+  pattern: \b(JySzE)\b
+  type: release_group
+- name: LostYears
+  negate: false
+  required: false
+  pattern: \b(LostYears)\b
+  type: release_group
+- name: Lulu
+  negate: false
+  required: false
+  pattern: \[Lulu\]|-Lulu\b
+  type: release_group
+- name: Matsya
+  negate: false
+  required: false
+  pattern: \b(Matsya)\b
+  type: release_group
+- name: MC
+  negate: false
+  required: false
+  pattern: \b(MC)\b
+  type: release_group
+- name: McBalls
+  negate: false
+  required: false
+  pattern: \b(McBalls)\b
+  type: release_group
+- name: Metal
+  negate: false
+  required: false
+  pattern: \[Metal\]|-Metal\b
+  type: release_group
+- name: Moxie
+  negate: false
+  required: false
+  pattern: \[Moxie\]|-Moxie\b
+  type: release_group
+- name: MTBB
+  negate: false
+  required: false
+  pattern: \b(MTBB)\b
+  type: release_group
+- name: Not-Vodes
+  negate: false
+  required: false
+  pattern: \[Not-Vodes\]|-Not-Vodes\b
+  type: release_group
+- name: Noyr
+  negate: false
+  required: false
+  pattern: \b(Noyr)\b
+  type: release_group
+- name: NSDAB
+  negate: false
+  required: false
+  pattern: \b(NSDAB)\b
+  type: release_group
+- name: Okay-Subs
+  negate: false
+  required: false
+  pattern: \b(Okay-Subs)\b
+  type: release_group
+- name: pog42
+  negate: false
+  required: false
+  pattern: \b(pog42)\b
+  type: release_group
+- name: pyroneko
+  negate: false
+  required: false
+  pattern: \b(pyroneko)\b
+  type: release_group
+- name: RAI
+  negate: false
+  required: false
+  pattern: \b(RAI)\b
+  type: release_group
+- name: Reza
+  negate: false
+  required: false
+  pattern: \b(Reza)\b
+  type: release_group
+- name: Shimatta
+  negate: false
+  required: false
+  pattern: \b(Shimatta)\b
+  type: release_group
+- name: Smoke
+  negate: false
+  required: false
+  pattern: \[Smoke\]|-Smoke\b
+  type: release_group
+- name: Spirale
+  negate: false
+  required: false
+  pattern: \b(Spirale)\b
+  type: release_group
+- name: Thighs
+  negate: false
+  required: false
+  pattern: \[Thighs\]|-Thighs\b
+  type: release_group
+- name: UDF
+  negate: false
+  required: false
+  pattern: \b(UDF)\b
+  type: release_group
+- name: Yuki
+  negate: false
+  required: false
+  pattern: \[Yuki\]|-Yuki\b
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: '0x539'
+    negate: false
+    pattern: \b(0x539)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Alt
+    negate: false
+    pattern: \[Alt\]|-Alt\b
+    required: false
+    type: release_group
+  - matches: true
+    name: ARC
+    negate: false
+    pattern: \[ARC\]|-ARC\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Arid
+    negate: false
+    pattern: \[Arid\]|-Arid\b
+    required: false
+    type: release_group
+  - matches: true
+    name: aro
+    negate: false
+    pattern: \b(aro)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Baws
+    negate: false
+    pattern: \b(Baws)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: BKC
+    negate: false
+    pattern: \b(BKC)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Brrrrrrr
+    negate: false
+    pattern: \b(Brrrrrrr)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Chotab
+    negate: false
+    pattern: \b(Chotab)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Crow
+    negate: false
+    pattern: \[Crow\]|-Crow\b
+    required: false
+    type: release_group
+  - matches: true
+    name: CsS
+    negate: false
+    pattern: \b(CsS)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: CUNNY
+    negate: false
+    pattern: \b(CUNNY)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Cunnysseur
+    negate: false
+    pattern: \b(Cunnysseur)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: D-Z0N3
+    negate: false
+    pattern: \b(D-Z0N3)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Dae
+    negate: false
+    pattern: \b(Dae)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Datte13
+    negate: false
+    pattern: \b(Datte13)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: DemiHuman
+    negate: false
+    pattern: \[DemiHuman\]|-DemiHuman\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Drag
+    negate: false
+    pattern: \[Drag\]|-Drag\b
+    required: false
+    type: release_group
+  - matches: true
+    name: FLFL
+    negate: false
+    pattern: \b(FLFL)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: hydes
+    negate: false
+    pattern: \b(hydes)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: iKaos
+    negate: false
+    pattern: \b(iKaos)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: JySzE
+    negate: false
+    pattern: \b(JySzE)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: LostYears
+    negate: false
+    pattern: \b(LostYears)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Lulu
+    negate: false
+    pattern: \[Lulu\]|-Lulu\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Matsya
+    negate: false
+    pattern: \b(Matsya)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: MC
+    negate: false
+    pattern: \b(MC)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: McBalls
+    negate: false
+    pattern: \b(McBalls)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Metal
+    negate: false
+    pattern: \[Metal\]|-Metal\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Moxie
+    negate: false
+    pattern: \[Moxie\]|-Moxie\b
+    required: false
+    type: release_group
+  - matches: true
+    name: MTBB
+    negate: false
+    pattern: \b(MTBB)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Not-Vodes
+    negate: false
+    pattern: \[Not-Vodes\]|-Not-Vodes\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Noyr
+    negate: false
+    pattern: \b(Noyr)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: NSDAB
+    negate: false
+    pattern: \b(NSDAB)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Okay-Subs
+    negate: false
+    pattern: \b(Okay-Subs)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: pog42
+    negate: false
+    pattern: \b(pog42)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: pyroneko
+    negate: false
+    pattern: \b(pyroneko)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: RAI
+    negate: false
+    pattern: \b(RAI)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Reza
+    negate: false
+    pattern: \b(Reza)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Shimatta
+    negate: false
+    pattern: \b(Shimatta)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Smoke
+    negate: false
+    pattern: \[Smoke\]|-Smoke\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Spirale
+    negate: false
+    pattern: \b(Spirale)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Thighs
+    negate: false
+    pattern: \[Thighs\]|-Thighs\b
+    required: false
+    type: release_group
+  - matches: true
+    name: UDF
+    negate: false
+    pattern: \b(UDF)\b
+    required: false
+    type: release_group
+  - matches: true
+    name: Yuki
+    negate: false
+    pattern: \[Yuki\]|-Yuki\b
+    required: false
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-Bluray
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true
