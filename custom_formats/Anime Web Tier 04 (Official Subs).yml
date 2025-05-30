@@ -18,135 +18,135 @@ conditions:
 - name: BlueLobster
   negate: false
   required: false
-  pattern: \b(BlueLobster)\b
+  pattern: BlueLobster
   type: release_group
 - name: Erai-Raws
   negate: false
   required: false
-  pattern: \b(Erai-raws)\b
+  pattern: Erai-Raws
   type: release_group
 - name: GST
   negate: false
   required: false
-  pattern: \b(GST)\b
+  pattern: GST
   type: release_group
 - name: HorribleRips
   negate: false
   required: false
-  pattern: \b(HorribleRips)\b
+  pattern: HorribleRips
   type: release_group
 - name: HorribleSubs
   negate: false
   required: false
-  pattern: \b(HorribleSubs)\b
+  pattern: HorribleSubs
   type: release_group
 - name: KAN3D2M
   negate: false
   required: false
-  pattern: \b(KAN3D2M)\b
+  pattern: KAN3D2M
   type: release_group
 - name: KiyoshiStar
   negate: false
   required: false
-  pattern: \b(KS|KiyoshiStar)\b
+  pattern: KiyoshiStar
   type: release_group
 - name: Lia
   negate: false
   required: false
-  pattern: \[Lia\]|-Lia\b
+  pattern: Lia
   type: release_group
 - name: NanDesuKa
   negate: false
   required: false
-  pattern: \b(NanDesuKa)\b
+  pattern: NanDesuKa
   type: release_group
 - name: URANIME
   negate: false
   required: false
-  pattern: \b(URANIME)\b
+  pattern: URANIME
   type: release_group
 - name: VARYG
   negate: false
   required: false
-  pattern: \b(VARYG)\b
+  pattern: VARYG
   type: release_group
 - name: ZigZag
   negate: false
   required: false
-  pattern: "\\[ZigZag\\]|-ZigZab\b"
+  pattern: ZigZag
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: BlueLobster
     negate: false
-    pattern: \b(BlueLobster)\b
+    pattern: BlueLobster
     required: false
     type: release_group
   - matches: true
     name: Erai-Raws
     negate: false
-    pattern: \b(Erai-raws)\b
+    pattern: Erai-Raws
     required: false
     type: release_group
   - matches: true
     name: GST
     negate: false
-    pattern: \b(GST)\b
+    pattern: GST
     required: false
     type: release_group
   - matches: true
     name: HorribleRips
     negate: false
-    pattern: \b(HorribleRips)\b
+    pattern: HorribleRips
     required: false
     type: release_group
   - matches: true
     name: HorribleSubs
     negate: false
-    pattern: \b(HorribleSubs)\b
+    pattern: HorribleSubs
     required: false
     type: release_group
   - matches: true
     name: KAN3D2M
     negate: false
-    pattern: \b(KAN3D2M)\b
+    pattern: KAN3D2M
     required: false
     type: release_group
   - matches: true
     name: KiyoshiStar
     negate: false
-    pattern: \b(KS|KiyoshiStar)\b
+    pattern: KiyoshiStar
     required: false
     type: release_group
   - matches: true
     name: Lia
     negate: false
-    pattern: \[Lia\]|-Lia\b
+    pattern: Lia
     required: false
     type: release_group
   - matches: true
     name: NanDesuKa
     negate: false
-    pattern: \b(NanDesuKa)\b
+    pattern: NanDesuKa
     required: false
     type: release_group
   - matches: true
     name: URANIME
     negate: false
-    pattern: \b(URANIME)\b
+    pattern: URANIME
     required: false
     type: release_group
   - matches: true
     name: VARYG
     negate: false
-    pattern: \b(VARYG)\b
+    pattern: VARYG
     required: false
     type: release_group
   - matches: true
     name: ZigZag
     negate: false
-    pattern: "\\[ZigZag\\]|-ZigZab\b"
+    pattern: ZigZag
     required: false
     type: release_group
   expected: true

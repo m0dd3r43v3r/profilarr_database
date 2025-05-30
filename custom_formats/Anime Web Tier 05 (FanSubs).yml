@@ -18,69 +18,69 @@ conditions:
 - name: 9volt
   negate: false
   required: false
-  pattern: \b(9volt)\b
+  pattern: 9volt
   type: release_group
 - name: GJM
   negate: false
   required: false
-  pattern: \b(GJM)\b
+  pattern: GJM
   type: release_group
 - name: Kaleido
   negate: false
   required: false
-  pattern: \b(Kaleido)\b
+  pattern: Kaleido
   type: release_group
 - name: Kantai
   negate: false
   required: false
-  pattern: \[Kantai\]|-Kantai\b
+  pattern: Kantai
   type: release_group
 - name: SobsPlease
   negate: false
   required: false
-  pattern: \b(SobsPlease)\b
+  pattern: SobsPlease
   type: release_group
 - name: Some-Stuffs
   negate: false
   required: false
-  pattern: \b(Some-Stuffs)\b
+  pattern: Some-Stuffs
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: 9volt
     negate: false
-    pattern: \b(9volt)\b
+    pattern: 9volt
     required: false
     type: release_group
   - matches: true
     name: GJM
     negate: false
-    pattern: \b(GJM)\b
+    pattern: GJM
     required: false
     type: release_group
   - matches: true
     name: Kaleido
     negate: false
-    pattern: \b(Kaleido)\b
+    pattern: Kaleido
     required: false
     type: release_group
   - matches: true
     name: Kantai
     negate: false
-    pattern: \[Kantai\]|-Kantai\b
+    pattern: Kantai
     required: false
     type: release_group
   - matches: true
     name: SobsPlease
     negate: false
-    pattern: \b(SobsPlease)\b
+    pattern: SobsPlease
     required: false
     type: release_group
   - matches: true
     name: Some-Stuffs
     negate: false
-    pattern: \b(Some-Stuffs)\b
+    pattern: Some-Stuffs
     required: false
     type: release_group
   expected: true

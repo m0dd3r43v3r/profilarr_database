@@ -18,102 +18,102 @@ conditions:
 - name: BluDragon
   negate: false
   required: false
-  pattern: \b(BluDragon)\b
+  pattern: BluDragon
   type: release_group
 - name: D4C
   negate: false
   required: false
-  pattern: \b(D4C)\b
+  pattern: D4C
   type: release_group
 - name: E.N.D
   negate: false
   required: false
-  pattern: \b(E[.-]N[.-]D)\b
+  pattern: E.N.D
   type: release_group
 - name: PMR
   negate: false
   required: false
-  pattern: ^(?=.*\b(PMR)\b)(?=.*\b(Remux)\b)
+  pattern: PMR
   type: release_group
 - name: Raizel
   negate: false
   required: false
-  pattern: \b(Raizel)\b
+  pattern: Raizel
   type: release_group
 - name: REVO
   negate: false
   required: false
-  pattern: \b(REVO)\b
+  pattern: REVO
   type: release_group
 - name: SRLS
   negate: false
   required: false
-  pattern: \b(SRLS)\b
+  pattern: SRLS
   type: release_group
 - name: TTGA
   negate: false
   required: false
-  pattern: \b(TTGA)\b
+  pattern: TTGA
   type: release_group
 - name: VULCAN
   negate: false
   required: false
-  pattern: \b(VULCAN)\b
+  pattern: VULCAN
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: BluDragon
     negate: false
-    pattern: \b(BluDragon)\b
+    pattern: BluDragon
     required: false
     type: release_group
   - matches: true
     name: D4C
     negate: false
-    pattern: \b(D4C)\b
+    pattern: D4C
     required: false
     type: release_group
   - matches: true
     name: E.N.D
     negate: false
-    pattern: \b(E[.-]N[.-]D)\b
+    pattern: E.N.D
     required: false
     type: release_group
   - matches: true
     name: PMR
     negate: false
-    pattern: ^(?=.*\b(PMR)\b)(?=.*\b(Remux)\b)
+    pattern: PMR
     required: false
     type: release_group
   - matches: true
     name: Raizel
     negate: false
-    pattern: \b(Raizel)\b
+    pattern: Raizel
     required: false
     type: release_group
   - matches: true
     name: REVO
     negate: false
-    pattern: \b(REVO)\b
+    pattern: REVO
     required: false
     type: release_group
   - matches: true
     name: SRLS
     negate: false
-    pattern: \b(SRLS)\b
+    pattern: SRLS
     required: false
     type: release_group
   - matches: true
     name: TTGA
     negate: false
-    pattern: \b(TTGA)\b
+    pattern: TTGA
     required: false
     type: release_group
   - matches: true
     name: VULCAN
     negate: false
-    pattern: \b(VULCAN)\b
+    pattern: VULCAN
     required: false
     type: release_group
   expected: true

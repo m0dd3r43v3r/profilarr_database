@@ -18,80 +18,80 @@ conditions:
 - name: Dubbed
   negate: false
   required: false
-  pattern: ^(?!.*(Dual|Multi)[-_. ]?Audio).*((?<!multi-)\b(dub(bed)?)\b|(funi|eng(lish)?)_?dub)
+  pattern: Dubbed
   type: release_group
 - name: Golumpa
   negate: false
   required: false
-  pattern: \b(Golumpa)\b
+  pattern: Golumpa
   type: release_group
 - name: KaiDubs (Not Dual Audio)
   negate: false
   required: false
-  pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\b(KaiDubs)\b
+  pattern: KaiDubs (Not Dual Audio)
   type: release_group
 - name: KamiFS
   negate: false
   required: false
-  pattern: \b(KamiFS)\b
+  pattern: KamiFS
   type: release_group
 - name: KS (Not Dual Audio)
   negate: false
   required: false
-  pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\bKS\b
+  pattern: KS (Not Dual Audio)
   type: release_group
 - name: torenter69
   negate: false
   required: false
-  pattern: \b(torenter69)\b
+  pattern: torenter69
   type: release_group
 - name: Yameii
   negate: false
   required: false
-  pattern: \[Yameii\]|-Yameii\b
+  pattern: Yameii
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: Dubbed
     negate: false
-    pattern: ^(?!.*(Dual|Multi)[-_. ]?Audio).*((?<!multi-)\b(dub(bed)?)\b|(funi|eng(lish)?)_?dub)
+    pattern: Dubbed
     required: false
     type: release_group
   - matches: true
     name: Golumpa
     negate: false
-    pattern: \b(Golumpa)\b
+    pattern: Golumpa
     required: false
     type: release_group
   - matches: true
     name: KaiDubs (Not Dual Audio)
     negate: false
-    pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\b(KaiDubs)\b
+    pattern: KaiDubs (Not Dual Audio)
     required: false
     type: release_group
   - matches: true
     name: KamiFS
     negate: false
-    pattern: \b(KamiFS)\b
+    pattern: KamiFS
     required: false
     type: release_group
   - matches: true
     name: KS (Not Dual Audio)
     negate: false
-    pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\bKS\b
+    pattern: KS (Not Dual Audio)
     required: false
     type: release_group
   - matches: true
     name: torenter69
     negate: false
-    pattern: \b(torenter69)\b
+    pattern: torenter69
     required: false
     type: release_group
   - matches: true
     name: Yameii
     negate: false
-    pattern: \[Yameii\]|-Yameii\b
+    pattern: Yameii
     required: false
     type: release_group
   expected: true

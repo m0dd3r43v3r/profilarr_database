@@ -18,124 +18,124 @@ conditions:
 - name: AkihitoSubs
   negate: false
   required: false
-  pattern: \b(AkihitoSubs)\b
+  pattern: AkihitoSubs
   type: release_group
 - name: Arukoru
   negate: false
   required: false
-  pattern: \b(Arukoru)\b
+  pattern: Arukoru
   type: release_group
 - name: EDGE
   negate: false
   required: false
-  pattern: \[EDGE\]|-EDGE\b
+  pattern: EDGE
   type: release_group
 - name: EMBER
   negate: false
   required: false
-  pattern: \[EMBER\]|-EMBER\b
+  pattern: EMBER
   type: release_group
 - name: GHOST
   negate: false
   required: false
-  pattern: \[GHOST\]|-GHOST\b
+  pattern: GHOST
   type: release_group
 - name: Judas
   negate: false
   required: false
-  pattern: \[Judas\]|-Judas
+  pattern: Judas
   type: release_group
 - name: naiyas
   negate: false
   required: false
-  pattern: \[naiyas\]|-naiyas\b
+  pattern: naiyas
   type: release_group
 - name: Nep_Blanc
   negate: false
   required: false
-  pattern: \b(Nep[ ._-]Blanc)\b
+  pattern: Nep_Blanc
   type: release_group
 - name: Prof
   negate: false
   required: false
-  pattern: \[Prof\]|-Prof\b
+  pattern: Prof
   type: release_group
 - name: Shirσ
   negate: false
   required: false
-  pattern: \b(Shirσ)\b
+  pattern: Shirσ
   type: release_group
 - name: YURASAKA
   negate: false
   required: false
-  pattern: \[YURASUKA\]|-YURASUKA\b
+  pattern: YURASAKA
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: AkihitoSubs
     negate: false
-    pattern: \b(AkihitoSubs)\b
+    pattern: AkihitoSubs
     required: false
     type: release_group
   - matches: true
     name: Arukoru
     negate: false
-    pattern: \b(Arukoru)\b
+    pattern: Arukoru
     required: false
     type: release_group
   - matches: true
     name: EDGE
     negate: false
-    pattern: \[EDGE\]|-EDGE\b
+    pattern: EDGE
     required: false
     type: release_group
   - matches: true
     name: EMBER
     negate: false
-    pattern: \[EMBER\]|-EMBER\b
+    pattern: EMBER
     required: false
     type: release_group
   - matches: true
     name: GHOST
     negate: false
-    pattern: \[GHOST\]|-GHOST\b
+    pattern: GHOST
     required: false
     type: release_group
   - matches: true
     name: Judas
     negate: false
-    pattern: \[Judas\]|-Judas
+    pattern: Judas
     required: false
     type: release_group
   - matches: true
     name: naiyas
     negate: false
-    pattern: \[naiyas\]|-naiyas\b
+    pattern: naiyas
     required: false
     type: release_group
   - matches: true
     name: Nep_Blanc
     negate: false
-    pattern: \b(Nep[ ._-]Blanc)\b
+    pattern: Nep_Blanc
     required: false
     type: release_group
   - matches: true
     name: Prof
     negate: false
-    pattern: \[Prof\]|-Prof\b
+    pattern: Prof
     required: false
     type: release_group
   - matches: true
     name: Shirσ
     negate: false
-    pattern: \b(Shirσ)\b
+    pattern: Shirσ
     required: false
     type: release_group
   - matches: true
     name: YURASAKA
     negate: false
-    pattern: \[YURASUKA\]|-YURASUKA\b
+    pattern: YURASAKA
     required: false
     type: release_group
   expected: true

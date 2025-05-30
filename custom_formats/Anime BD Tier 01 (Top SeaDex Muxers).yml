@@ -18,135 +18,135 @@ conditions:
 - name: Aergia
   negate: false
   required: false
-  pattern: \[Aergia\]|-Aergia(?!-raws)\b
+  pattern: Aergia
   type: release_group
 - name: Arg0
   negate: false
   required: false
-  pattern: \b(Arg0)\b
+  pattern: Arg0
   type: release_group
 - name: Legion
   negate: false
   required: false
-  pattern: \[Legion\]|-Legion\b
+  pattern: Legion
   type: release_group
 - name: LYS1TH3A
   negate: false
   required: false
-  pattern: \b(LYS1TH3A)\b
+  pattern: LYS1TH3A
   type: release_group
 - name: OZR
   negate: false
   required: false
-  pattern: \b(OZR)\b
+  pattern: OZR
   type: release_group
 - name: sam
   negate: false
   required: false
-  pattern: \[sam\]|-sam\b
+  pattern: sam
   type: release_group
 - name: SCY
   negate: false
   required: false
-  pattern: \b(SCY)\b
+  pattern: SCY
   type: release_group
 - name: smol
   negate: false
   required: false
-  pattern: \[smol\]|-smol\b
+  pattern: smol
   type: release_group
 - name: SoM
   negate: false
   required: false
-  pattern: \[SoM\]|-SoM\b
+  pattern: SoM
   type: release_group
 - name: Vanilla
   negate: false
   required: false
-  pattern: \[Vanilla\]|-Vanilla\b
+  pattern: Vanilla
   type: release_group
 - name: Vodes
   negate: false
   required: false
-  pattern: \[Vodes\]|(?<!Not)-Vodes\b
+  pattern: Vodes
   type: release_group
 - name: ZeroBuild
   negate: false
   required: false
-  pattern: \b(ZeroBuild)\b
+  pattern: ZeroBuild
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: Aergia
     negate: false
-    pattern: \[Aergia\]|-Aergia(?!-raws)\b
+    pattern: Aergia
     required: false
     type: release_group
   - matches: true
     name: Arg0
     negate: false
-    pattern: \b(Arg0)\b
+    pattern: Arg0
     required: false
     type: release_group
   - matches: true
     name: Legion
     negate: false
-    pattern: \[Legion\]|-Legion\b
+    pattern: Legion
     required: false
     type: release_group
   - matches: true
     name: LYS1TH3A
     negate: false
-    pattern: \b(LYS1TH3A)\b
+    pattern: LYS1TH3A
     required: false
     type: release_group
   - matches: true
     name: OZR
     negate: false
-    pattern: \b(OZR)\b
+    pattern: OZR
     required: false
     type: release_group
   - matches: true
     name: sam
     negate: false
-    pattern: \[sam\]|-sam\b
+    pattern: sam
     required: false
     type: release_group
   - matches: true
     name: SCY
     negate: false
-    pattern: \b(SCY)\b
+    pattern: SCY
     required: false
     type: release_group
   - matches: true
     name: smol
     negate: false
-    pattern: \[smol\]|-smol\b
+    pattern: smol
     required: false
     type: release_group
   - matches: true
     name: SoM
     negate: false
-    pattern: \[SoM\]|-SoM\b
+    pattern: SoM
     required: false
     type: release_group
   - matches: true
     name: Vanilla
     negate: false
-    pattern: \[Vanilla\]|-Vanilla\b
+    pattern: Vanilla
     required: false
     type: release_group
   - matches: true
     name: Vodes
     negate: false
-    pattern: \[Vodes\]|(?<!Not)-Vodes\b
+    pattern: Vodes
     required: false
     type: release_group
   - matches: true
     name: ZeroBuild
     negate: false
-    pattern: \b(ZeroBuild)\b
+    pattern: ZeroBuild
     required: false
     type: release_group
   expected: true

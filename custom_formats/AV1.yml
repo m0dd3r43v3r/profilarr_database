@@ -1,12 +1,35 @@
 name: AV1
-description: Matches the 'AV1' Regex Pattern
+description: Matches release groups who fall under AV1
 tags:
-- Codec
-- Bleeding Edge
+- Release Group Tier
+- Anime
+- BD
 conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: true
+  source: bluray_remux
+  type: source
 - name: AV1
   negate: false
-  pattern: AV1
   required: true
-  type: release_title
-tests: []
+  pattern: AV1
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: AV1
+    negate: false
+    pattern: AV1
+    required: true
+    type: release_group
+  expected: true
+  id: 1
+  input: Example.2023.BluRay.1080p.DTS-HD.MA.5.1.x264-AV1
+  lastRun: '2024-01-13T02:53:37.357699'
+  passes: true

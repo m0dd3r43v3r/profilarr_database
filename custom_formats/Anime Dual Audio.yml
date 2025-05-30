@@ -18,29 +18,25 @@ conditions:
 - name: Dual Audio
   negate: false
   required: true
-  pattern: dual[ ._-]?(audio)|[([]dual[])]|\b(JA|ZH|KO)(?= ?\+ ?.*?\b(EN))|\b(EN)(?=
-    ?\+ ?.*?\b(JA|ZH|KO))|\b(Japanese|Chinese|Korean) ?[ ._\+&-] ?\b(English)|\b(English)
-    ?[ ._\+&-] ?\b(Japanese|Chinese|Korean)|\b(\d{3,4}(p|i)|4K|U(ltra)?HD)\b.*\b(DUAL)\b(?!.*\(|\))
+  pattern: Dual Audio
   type: release_group
 - name: Not Single Language Only
   negate: true
   required: true
-  pattern: \[(JA|ZH|KO)\]
+  pattern: Not Single Language Only
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: Dual Audio
     negate: false
-    pattern: dual[ ._-]?(audio)|[([]dual[])]|\b(JA|ZH|KO)(?= ?\+ ?.*?\b(EN))|\b(EN)(?=
-      ?\+ ?.*?\b(JA|ZH|KO))|\b(Japanese|Chinese|Korean) ?[ ._\+&-] ?\b(English)|\b(English)
-      ?[ ._\+&-] ?\b(Japanese|Chinese|Korean)|\b(\d{3,4}(p|i)|4K|U(ltra)?HD)\b.*\b(DUAL)\b(?!.*\(|\))
+    pattern: Dual Audio
     required: true
     type: release_group
   - matches: true
     name: Not Single Language Only
     negate: true
-    pattern: \[(JA|ZH|KO)\]
+    pattern: Not Single Language Only
     required: true
     type: release_group
   expected: true

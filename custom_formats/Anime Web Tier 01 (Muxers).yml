@@ -18,157 +18,157 @@ conditions:
 - name: Arg0
   negate: false
   required: false
-  pattern: \b(Arg0)\b
+  pattern: Arg0
   type: release_group
 - name: Arid
   negate: false
   required: false
-  pattern: \[Arid\]|-Arid\b
+  pattern: Arid
   type: release_group
 - name: Baws
   negate: false
   required: false
-  pattern: \b(Baws)\b
+  pattern: Baws
   type: release_group
 - name: LostYears
   negate: false
   required: false
-  pattern: \b(LostYears)\b
+  pattern: LostYears
   type: release_group
 - name: LYS1TH3A
   negate: false
   required: false
-  pattern: \b(LYS1TH3A)\b
+  pattern: LYS1TH3A
   type: release_group
 - name: McBalls
   negate: false
   required: false
-  pattern: \b(McBalls)\b
+  pattern: McBalls
   type: release_group
 - name: sam
   negate: false
   required: false
-  pattern: \[sam\]|-sam\b
+  pattern: sam
   type: release_group
 - name: SCY
   negate: false
   required: false
-  pattern: \b(SCY)\b
+  pattern: SCY
   type: release_group
 - name: Setsugen
   negate: false
   required: false
-  pattern: \b(Setsugen)\b
+  pattern: Setsugen
   type: release_group
 - name: smol
   negate: false
   required: false
-  pattern: \[smol\]|-smol\b
+  pattern: smol
   type: release_group
 - name: SoM
   negate: false
   required: false
-  pattern: \[SoM\]|-SoM\b
+  pattern: SoM
   type: release_group
 - name: Vodes
   negate: false
   required: false
-  pattern: \[Vodes\]|(?<!Not)-Vodes\b
+  pattern: Vodes
   type: release_group
 - name: Z4ST1N
   negate: false
   required: false
-  pattern: \b(Z4ST1N)\b
+  pattern: Z4ST1N
   type: release_group
 - name: ZeroBuild
   negate: false
   required: false
-  pattern: \b(ZeroBuild)\b
+  pattern: ZeroBuild
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: Arg0
     negate: false
-    pattern: \b(Arg0)\b
+    pattern: Arg0
     required: false
     type: release_group
   - matches: true
     name: Arid
     negate: false
-    pattern: \[Arid\]|-Arid\b
+    pattern: Arid
     required: false
     type: release_group
   - matches: true
     name: Baws
     negate: false
-    pattern: \b(Baws)\b
+    pattern: Baws
     required: false
     type: release_group
   - matches: true
     name: LostYears
     negate: false
-    pattern: \b(LostYears)\b
+    pattern: LostYears
     required: false
     type: release_group
   - matches: true
     name: LYS1TH3A
     negate: false
-    pattern: \b(LYS1TH3A)\b
+    pattern: LYS1TH3A
     required: false
     type: release_group
   - matches: true
     name: McBalls
     negate: false
-    pattern: \b(McBalls)\b
+    pattern: McBalls
     required: false
     type: release_group
   - matches: true
     name: sam
     negate: false
-    pattern: \[sam\]|-sam\b
+    pattern: sam
     required: false
     type: release_group
   - matches: true
     name: SCY
     negate: false
-    pattern: \b(SCY)\b
+    pattern: SCY
     required: false
     type: release_group
   - matches: true
     name: Setsugen
     negate: false
-    pattern: \b(Setsugen)\b
+    pattern: Setsugen
     required: false
     type: release_group
   - matches: true
     name: smol
     negate: false
-    pattern: \[smol\]|-smol\b
+    pattern: smol
     required: false
     type: release_group
   - matches: true
     name: SoM
     negate: false
-    pattern: \[SoM\]|-SoM\b
+    pattern: SoM
     required: false
     type: release_group
   - matches: true
     name: Vodes
     negate: false
-    pattern: \[Vodes\]|(?<!Not)-Vodes\b
+    pattern: Vodes
     required: false
     type: release_group
   - matches: true
     name: Z4ST1N
     negate: false
-    pattern: \b(Z4ST1N)\b
+    pattern: Z4ST1N
     required: false
     type: release_group
   - matches: true
     name: ZeroBuild
     negate: false
-    pattern: \b(ZeroBuild)\b
+    pattern: ZeroBuild
     required: false
     type: release_group
   expected: true

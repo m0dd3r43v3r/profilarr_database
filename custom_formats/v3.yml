@@ -18,14 +18,14 @@ conditions:
 - name: v3
   negate: false
   required: true
-  pattern: (\b|\d)(v3)\b
+  pattern: v3
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: v3
     negate: false
-    pattern: (\b|\d)(v3)\b
+    pattern: v3
     required: true
     type: release_group
   expected: true

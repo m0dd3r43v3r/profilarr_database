@@ -18,245 +18,245 @@ conditions:
 - name: AsukaRaws
   negate: false
   required: false
-  pattern: Asuka[ ._-]?(Raws)
+  pattern: AsukaRaws
   type: release_group
 - name: Beatrice-Raws
   negate: false
   required: false
-  pattern: Beatrice[ ._-]?(Raws)
+  pattern: Beatrice-Raws
   type: release_group
 - name: Daddy-Raws
   negate: false
   required: false
-  pattern: Daddy[ ._-]?(Raws)
+  pattern: Daddy-Raws
   type: release_group
 - name: Fumi-Raws
   negate: false
   required: false
-  pattern: Fumi[ ._-]?(Raws)
+  pattern: Fumi-Raws
   type: release_group
 - name: IrizaRaws
   negate: false
   required: false
-  pattern: Iriza[ ._-]?(Raws)
+  pattern: IrizaRaws
   type: release_group
 - name: Kawaiika-Raws
   negate: false
   required: false
-  pattern: Kawaiika[ ._-]?(Raws)
+  pattern: Kawaiika-Raws
   type: release_group
 - name: km
   negate: false
   required: false
-  pattern: \[km\]|-km\b
+  pattern: km
   type: release_group
 - name: Koi-Raws
   negate: false
   required: false
-  pattern: Koi[ ._-]?(Raws)
+  pattern: Koi-Raws
   type: release_group
 - name: Lilith-Raws
   negate: false
   required: false
-  pattern: Lilith[ ._-]?(Raws)
+  pattern: Lilith-Raws
   type: release_group
 - name: LowPower-Raws
   negate: false
   required: false
-  pattern: LowPower[ ._-]?(Raws)
+  pattern: LowPower-Raws
   type: release_group
 - name: Moozzi2
   negate: false
   required: false
-  pattern: \b(Moozzi2)\b
+  pattern: Moozzi2
   type: release_group
 - name: NanakoRaws
   negate: false
   required: false
-  pattern: Nanako[ ._-]?(Raws)
+  pattern: NanakoRaws
   type: release_group
 - name: NC-Raws
   negate: false
   required: false
-  pattern: NC[ ._-]?(Raws)
+  pattern: NC-Raws
   type: release_group
 - name: neko-raws
   negate: false
   required: false
-  pattern: neko[ ._-]?(raws)
+  pattern: neko-raws
   type: release_group
 - name: New-raws
   negate: false
   required: false
-  pattern: New[ ._-]?(raws)
+  pattern: New-raws
   type: release_group
 - name: Ohys-Raws
   negate: false
   required: false
-  pattern: Ohys[ ._-]?(Raws)
+  pattern: Ohys-Raws
   type: release_group
 - name: Pandoratv-Raws
   negate: false
   required: false
-  pattern: Pandoratv[ ._-]?(Raws)
+  pattern: Pandoratv-Raws
   type: release_group
 - name: Raws-Maji
   negate: false
   required: false
-  pattern: \b(Raws-Maji)\b
+  pattern: Raws-Maji
   type: release_group
 - name: ReinForce
   negate: false
   required: false
-  pattern: \b(ReinForce)\b
+  pattern: ReinForce
   type: release_group
 - name: Scryous-Raws
   negate: false
   required: false
-  pattern: Scryous[ ._-]?(Raws)
+  pattern: Scryous-Raws
   type: release_group
 - name: Seicher-Raws
   negate: false
   required: false
-  pattern: Seicher[ ._-]?(Raws)
+  pattern: Seicher-Raws
   type: release_group
 - name: Shiniori-Raws
   negate: false
   required: false
-  pattern: Shiniori[ ._-]?(Raws)
+  pattern: Shiniori-Raws
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: AsukaRaws
     negate: false
-    pattern: Asuka[ ._-]?(Raws)
+    pattern: AsukaRaws
     required: false
     type: release_group
   - matches: true
     name: Beatrice-Raws
     negate: false
-    pattern: Beatrice[ ._-]?(Raws)
+    pattern: Beatrice-Raws
     required: false
     type: release_group
   - matches: true
     name: Daddy-Raws
     negate: false
-    pattern: Daddy[ ._-]?(Raws)
+    pattern: Daddy-Raws
     required: false
     type: release_group
   - matches: true
     name: Fumi-Raws
     negate: false
-    pattern: Fumi[ ._-]?(Raws)
+    pattern: Fumi-Raws
     required: false
     type: release_group
   - matches: true
     name: IrizaRaws
     negate: false
-    pattern: Iriza[ ._-]?(Raws)
+    pattern: IrizaRaws
     required: false
     type: release_group
   - matches: true
     name: Kawaiika-Raws
     negate: false
-    pattern: Kawaiika[ ._-]?(Raws)
+    pattern: Kawaiika-Raws
     required: false
     type: release_group
   - matches: true
     name: km
     negate: false
-    pattern: \[km\]|-km\b
+    pattern: km
     required: false
     type: release_group
   - matches: true
     name: Koi-Raws
     negate: false
-    pattern: Koi[ ._-]?(Raws)
+    pattern: Koi-Raws
     required: false
     type: release_group
   - matches: true
     name: Lilith-Raws
     negate: false
-    pattern: Lilith[ ._-]?(Raws)
+    pattern: Lilith-Raws
     required: false
     type: release_group
   - matches: true
     name: LowPower-Raws
     negate: false
-    pattern: LowPower[ ._-]?(Raws)
+    pattern: LowPower-Raws
     required: false
     type: release_group
   - matches: true
     name: Moozzi2
     negate: false
-    pattern: \b(Moozzi2)\b
+    pattern: Moozzi2
     required: false
     type: release_group
   - matches: true
     name: NanakoRaws
     negate: false
-    pattern: Nanako[ ._-]?(Raws)
+    pattern: NanakoRaws
     required: false
     type: release_group
   - matches: true
     name: NC-Raws
     negate: false
-    pattern: NC[ ._-]?(Raws)
+    pattern: NC-Raws
     required: false
     type: release_group
   - matches: true
     name: neko-raws
     negate: false
-    pattern: neko[ ._-]?(raws)
+    pattern: neko-raws
     required: false
     type: release_group
   - matches: true
     name: New-raws
     negate: false
-    pattern: New[ ._-]?(raws)
+    pattern: New-raws
     required: false
     type: release_group
   - matches: true
     name: Ohys-Raws
     negate: false
-    pattern: Ohys[ ._-]?(Raws)
+    pattern: Ohys-Raws
     required: false
     type: release_group
   - matches: true
     name: Pandoratv-Raws
     negate: false
-    pattern: Pandoratv[ ._-]?(Raws)
+    pattern: Pandoratv-Raws
     required: false
     type: release_group
   - matches: true
     name: Raws-Maji
     negate: false
-    pattern: \b(Raws-Maji)\b
+    pattern: Raws-Maji
     required: false
     type: release_group
   - matches: true
     name: ReinForce
     negate: false
-    pattern: \b(ReinForce)\b
+    pattern: ReinForce
     required: false
     type: release_group
   - matches: true
     name: Scryous-Raws
     negate: false
-    pattern: Scryous[ ._-]?(Raws)
+    pattern: Scryous-Raws
     required: false
     type: release_group
   - matches: true
     name: Seicher-Raws
     negate: false
-    pattern: Seicher[ ._-]?(Raws)
+    pattern: Seicher-Raws
     required: false
     type: release_group
   - matches: true
     name: Shiniori-Raws
     negate: false
-    pattern: Shiniori[ ._-]?(Raws)
+    pattern: Shiniori-Raws
     required: false
     type: release_group
   expected: true

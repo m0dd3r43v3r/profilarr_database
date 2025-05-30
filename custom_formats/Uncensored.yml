@@ -18,14 +18,14 @@ conditions:
 - name: Uncensored
   negate: false
   required: true
-  pattern: \b(Uncut|Unrated|Uncensored|AT[-_. ]?X)\b
+  pattern: Uncensored
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: Uncensored
     negate: false
-    pattern: \b(Uncut|Unrated|Uncensored|AT[-_. ]?X)\b
+    pattern: Uncensored
     required: true
     type: release_group
   expected: true

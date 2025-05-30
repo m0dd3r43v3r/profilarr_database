@@ -18,487 +18,487 @@ conditions:
 - name: 9volt
   negate: false
   required: false
-  pattern: \b(9volt)\b
+  pattern: 9volt
   type: release_group
 - name: AOmundson
   negate: false
   required: false
-  pattern: \b(AOmundson)\b
+  pattern: AOmundson
   type: release_group
 - name: Asakura
   negate: false
   required: false
-  pattern: \[Asakura\]|-Asakura\b
+  pattern: Asakura
   type: release_group
 - name: ASO
   negate: false
   required: false
-  pattern: \b(ASO)\b
+  pattern: ASO
   type: release_group
 - name: Bolshevik
   negate: false
   required: false
-  pattern: \[Bolshevik\]|-Bolshevik\b
+  pattern: Bolshevik
   type: release_group
 - name: Bulldog
   negate: false
   required: false
-  pattern: \[Bulldog\]|-Bulldog\b
+  pattern: Bulldog
   type: release_group
 - name: Cait-Sidhe
   negate: false
   required: false
-  pattern: \b(Cait-Sidhe)\b
+  pattern: Cait-Sidhe
   type: release_group
 - name: Chihiro
   negate: false
   required: false
-  pattern: \[Chihiro\]|-Chihiro\b
+  pattern: Chihiro
   type: release_group
 - name: Chimera
   negate: false
   required: false
-  pattern: \[Chimera\]|-Chimera\b
+  pattern: Chimera
   type: release_group
 - name: CoalGirls
   negate: false
   required: false
-  pattern: \b(CoalGirls)\b
+  pattern: CoalGirls
   type: release_group
 - name: Commie
   negate: false
   required: false
-  pattern: \b(Commie)\b
+  pattern: Commie
   type: release_group
 - name: D3
   negate: false
   required: false
-  pattern: \b(D3)\b
+  pattern: D3
   type: release_group
 - name: Davinci
   negate: false
   required: false
-  pattern: \[Davinci\]|-Davinci\b
+  pattern: Davinci
   type: release_group
 - name: deanzel
   negate: false
   required: false
-  pattern: \b(deanzel)\b
+  pattern: deanzel
   type: release_group
 - name: Doki
   negate: false
   required: false
-  pattern: \[Doki\]|-Doki\b
+  pattern: Doki
   type: release_group
 - name: Dragon-Releases
   negate: false
   required: false
-  pattern: \b(Dragon-Releases)\b
+  pattern: Dragon-Releases
   type: release_group
 - name: Foxtrot
   negate: false
   required: false
-  pattern: \[Foxtrot\]|-Foxtrot\b
+  pattern: Foxtrot
   type: release_group
 - name: GHS
   negate: false
   required: false
-  pattern: \b(GHS)\b
+  pattern: GHS
   type: release_group
 - name: HaiveMind
   negate: false
   required: false
-  pattern: \b(HaiveMind)\b
+  pattern: HaiveMind
   type: release_group
 - name: hchcsen
   negate: false
   required: false
-  pattern: \b(hchcsen)\b
+  pattern: hchcsen
   type: release_group
 - name: Iznjie Biznjie
   negate: false
   required: false
-  pattern: \b(Iznjie[ .-]Biznjie)\b
+  pattern: Iznjie Biznjie
   type: release_group
 - name: Kaleido
   negate: false
   required: false
-  pattern: \b(Kaleido)\b
+  pattern: Kaleido
   type: release_group
 - name: karios
   negate: false
   required: false
-  pattern: \b(karios)\b
+  pattern: karios
   type: release_group
 - name: kBaraka
   negate: false
   required: false
-  pattern: \b(kBaraka)\b
+  pattern: kBaraka
   type: release_group
 - name: kmplx
   negate: false
   required: false
-  pattern: \b(kmplx)\b
+  pattern: kmplx
   type: release_group
 - name: Koitern
   negate: false
   required: false
-  pattern: \b(Koitern)\b
+  pattern: Koitern
   type: release_group
 - name: Koten_Gars
   negate: false
   required: false
-  pattern: \b(Koten[ ._-]Gars)\b
+  pattern: Koten_Gars
   type: release_group
 - name: Kulot
   negate: false
   required: false
-  pattern: \b(Kulot)\b
+  pattern: Kulot
   type: release_group
 - name: Lia
   negate: false
   required: false
-  pattern: \[Lia\]|-Lia\b
+  pattern: Lia
   type: release_group
 - name: MCLR
   negate: false
   required: false
-  pattern: \b(MCLR)\b
+  pattern: MCLR
   type: release_group
 - name: mottoj
   negate: false
   required: false
-  pattern: \b(mottoj)\b
+  pattern: mottoj
   type: release_group
 - name: NH
   negate: false
   required: false
-  pattern: \b(NH)\b
+  pattern: NH
   type: release_group
 - name: NTRM
   negate: false
   required: false
-  pattern: \b(NTRM)\b
+  pattern: NTRM
   type: release_group
 - name: Orphan
   negate: false
   required: false
-  pattern: \[Orphan\]|-Orphan\b
+  pattern: Orphan
   type: release_group
 - name: RMX
   negate: false
   required: false
-  pattern: \b(RMX)\b
+  pattern: RMX
   type: release_group
 - name: SallySubs
   negate: false
   required: false
-  pattern: \b(SallySubs)\b
+  pattern: SallySubs
   type: release_group
 - name: Scriptum
   negate: false
   required: false
-  pattern: \b(Scriptum)\b
+  pattern: Scriptum
   type: release_group
 - name: ShadyCrab
   negate: false
   required: false
-  pattern: \b(ShadyCrab)\b
+  pattern: ShadyCrab
   type: release_group
 - name: SNSbu
   negate: false
   required: false
-  pattern: \b(SNSbu)\b
+  pattern: SNSbu
   type: release_group
 - name: SOLA
   negate: false
   required: false
-  pattern: \[SOLA\]|-SOLA\b
+  pattern: SOLA
   type: release_group
 - name: THORA
   negate: false
   required: false
-  pattern: \b(THORA)\b
+  pattern: THORA
   type: release_group
 - name: Tsundere
   negate: false
   required: false
-  pattern: \[Tsundere\]|-Tsundere(?!-)\b
+  pattern: Tsundere
   type: release_group
 - name: UWU
   negate: false
   required: false
-  pattern: \b(UWU)\b
+  pattern: UWU
   type: release_group
 - name: xPearse
   negate: false
   required: false
-  pattern: \b(xPearse)\b
+  pattern: xPearse
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: 9volt
     negate: false
-    pattern: \b(9volt)\b
+    pattern: 9volt
     required: false
     type: release_group
   - matches: true
     name: AOmundson
     negate: false
-    pattern: \b(AOmundson)\b
+    pattern: AOmundson
     required: false
     type: release_group
   - matches: true
     name: Asakura
     negate: false
-    pattern: \[Asakura\]|-Asakura\b
+    pattern: Asakura
     required: false
     type: release_group
   - matches: true
     name: ASO
     negate: false
-    pattern: \b(ASO)\b
+    pattern: ASO
     required: false
     type: release_group
   - matches: true
     name: Bolshevik
     negate: false
-    pattern: \[Bolshevik\]|-Bolshevik\b
+    pattern: Bolshevik
     required: false
     type: release_group
   - matches: true
     name: Bulldog
     negate: false
-    pattern: \[Bulldog\]|-Bulldog\b
+    pattern: Bulldog
     required: false
     type: release_group
   - matches: true
     name: Cait-Sidhe
     negate: false
-    pattern: \b(Cait-Sidhe)\b
+    pattern: Cait-Sidhe
     required: false
     type: release_group
   - matches: true
     name: Chihiro
     negate: false
-    pattern: \[Chihiro\]|-Chihiro\b
+    pattern: Chihiro
     required: false
     type: release_group
   - matches: true
     name: Chimera
     negate: false
-    pattern: \[Chimera\]|-Chimera\b
+    pattern: Chimera
     required: false
     type: release_group
   - matches: true
     name: CoalGirls
     negate: false
-    pattern: \b(CoalGirls)\b
+    pattern: CoalGirls
     required: false
     type: release_group
   - matches: true
     name: Commie
     negate: false
-    pattern: \b(Commie)\b
+    pattern: Commie
     required: false
     type: release_group
   - matches: true
     name: D3
     negate: false
-    pattern: \b(D3)\b
+    pattern: D3
     required: false
     type: release_group
   - matches: true
     name: Davinci
     negate: false
-    pattern: \[Davinci\]|-Davinci\b
+    pattern: Davinci
     required: false
     type: release_group
   - matches: true
     name: deanzel
     negate: false
-    pattern: \b(deanzel)\b
+    pattern: deanzel
     required: false
     type: release_group
   - matches: true
     name: Doki
     negate: false
-    pattern: \[Doki\]|-Doki\b
+    pattern: Doki
     required: false
     type: release_group
   - matches: true
     name: Dragon-Releases
     negate: false
-    pattern: \b(Dragon-Releases)\b
+    pattern: Dragon-Releases
     required: false
     type: release_group
   - matches: true
     name: Foxtrot
     negate: false
-    pattern: \[Foxtrot\]|-Foxtrot\b
+    pattern: Foxtrot
     required: false
     type: release_group
   - matches: true
     name: GHS
     negate: false
-    pattern: \b(GHS)\b
+    pattern: GHS
     required: false
     type: release_group
   - matches: true
     name: HaiveMind
     negate: false
-    pattern: \b(HaiveMind)\b
+    pattern: HaiveMind
     required: false
     type: release_group
   - matches: true
     name: hchcsen
     negate: false
-    pattern: \b(hchcsen)\b
+    pattern: hchcsen
     required: false
     type: release_group
   - matches: true
     name: Iznjie Biznjie
     negate: false
-    pattern: \b(Iznjie[ .-]Biznjie)\b
+    pattern: Iznjie Biznjie
     required: false
     type: release_group
   - matches: true
     name: Kaleido
     negate: false
-    pattern: \b(Kaleido)\b
+    pattern: Kaleido
     required: false
     type: release_group
   - matches: true
     name: karios
     negate: false
-    pattern: \b(karios)\b
+    pattern: karios
     required: false
     type: release_group
   - matches: true
     name: kBaraka
     negate: false
-    pattern: \b(kBaraka)\b
+    pattern: kBaraka
     required: false
     type: release_group
   - matches: true
     name: kmplx
     negate: false
-    pattern: \b(kmplx)\b
+    pattern: kmplx
     required: false
     type: release_group
   - matches: true
     name: Koitern
     negate: false
-    pattern: \b(Koitern)\b
+    pattern: Koitern
     required: false
     type: release_group
   - matches: true
     name: Koten_Gars
     negate: false
-    pattern: \b(Koten[ ._-]Gars)\b
+    pattern: Koten_Gars
     required: false
     type: release_group
   - matches: true
     name: Kulot
     negate: false
-    pattern: \b(Kulot)\b
+    pattern: Kulot
     required: false
     type: release_group
   - matches: true
     name: Lia
     negate: false
-    pattern: \[Lia\]|-Lia\b
+    pattern: Lia
     required: false
     type: release_group
   - matches: true
     name: MCLR
     negate: false
-    pattern: \b(MCLR)\b
+    pattern: MCLR
     required: false
     type: release_group
   - matches: true
     name: mottoj
     negate: false
-    pattern: \b(mottoj)\b
+    pattern: mottoj
     required: false
     type: release_group
   - matches: true
     name: NH
     negate: false
-    pattern: \b(NH)\b
+    pattern: NH
     required: false
     type: release_group
   - matches: true
     name: NTRM
     negate: false
-    pattern: \b(NTRM)\b
+    pattern: NTRM
     required: false
     type: release_group
   - matches: true
     name: Orphan
     negate: false
-    pattern: \[Orphan\]|-Orphan\b
+    pattern: Orphan
     required: false
     type: release_group
   - matches: true
     name: RMX
     negate: false
-    pattern: \b(RMX)\b
+    pattern: RMX
     required: false
     type: release_group
   - matches: true
     name: SallySubs
     negate: false
-    pattern: \b(SallySubs)\b
+    pattern: SallySubs
     required: false
     type: release_group
   - matches: true
     name: Scriptum
     negate: false
-    pattern: \b(Scriptum)\b
+    pattern: Scriptum
     required: false
     type: release_group
   - matches: true
     name: ShadyCrab
     negate: false
-    pattern: \b(ShadyCrab)\b
+    pattern: ShadyCrab
     required: false
     type: release_group
   - matches: true
     name: SNSbu
     negate: false
-    pattern: \b(SNSbu)\b
+    pattern: SNSbu
     required: false
     type: release_group
   - matches: true
     name: SOLA
     negate: false
-    pattern: \[SOLA\]|-SOLA\b
+    pattern: SOLA
     required: false
     type: release_group
   - matches: true
     name: THORA
     negate: false
-    pattern: \b(THORA)\b
+    pattern: THORA
     required: false
     type: release_group
   - matches: true
     name: Tsundere
     negate: false
-    pattern: \[Tsundere\]|-Tsundere(?!-)\b
+    pattern: Tsundere
     required: false
     type: release_group
   - matches: true
     name: UWU
     negate: false
-    pattern: \b(UWU)\b
+    pattern: UWU
     required: false
     type: release_group
   - matches: true
     name: xPearse
     negate: false
-    pattern: \b(xPearse)\b
+    pattern: xPearse
     required: false
     type: release_group
   expected: true

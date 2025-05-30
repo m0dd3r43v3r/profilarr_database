@@ -18,201 +18,201 @@ conditions:
 - name: '0x539'
   negate: false
   required: false
-  pattern: \b(0x539)\b
+  pattern: '0x539'
   type: release_group
 - name: Asakura
   negate: false
   required: false
-  pattern: \[Asakura\]|-Asakura\b
+  pattern: Asakura
   type: release_group
 - name: Cyan
   negate: false
   required: false
-  pattern: \[Cyan\]|-Cyan\b
+  pattern: Cyan
   type: release_group
 - name: Dae
   negate: false
   required: false
-  pattern: \[Dae\]|-Dae\b
+  pattern: Dae
   type: release_group
 - name: Foxtrot
   negate: false
   required: false
-  pattern: \[Foxtrot\]|-Foxtrot\b
+  pattern: Foxtrot
   type: release_group
 - name: Gao
   negate: false
   required: false
-  pattern: \[Gao\]|-Gao\b
+  pattern: Gao
   type: release_group
 - name: GSK_kun
   negate: false
   required: false
-  pattern: \b(GSK[._-]kun)\b
+  pattern: GSK_kun
   type: release_group
 - name: Half-Baked
   negate: false
   required: false
-  pattern: \b(Half-Baked)\b
+  pattern: Half-Baked
   type: release_group
 - name: HatSubs
   negate: false
   required: false
-  pattern: \b(HatSubs)\b
+  pattern: HatSubs
   type: release_group
 - name: MALD
   negate: false
   required: false
-  pattern: \b(MALD)\b
+  pattern: MALD
   type: release_group
 - name: MTBB
   negate: false
   required: false
-  pattern: \b(MTBB)\b
+  pattern: MTBB
   type: release_group
 - name: Not-Vodes
   negate: false
   required: false
-  pattern: \[Not-Vodes\]|-Not-Vodes\b
+  pattern: Not-Vodes
   type: release_group
 - name: Okay-Subs
   negate: false
   required: false
-  pattern: \b(Okay-Subs)\b
+  pattern: Okay-Subs
   type: release_group
 - name: Pizza
   negate: false
   required: false
-  pattern: \[Pizza\]|-Pizza\b
+  pattern: Pizza
   type: release_group
 - name: Reza
   negate: false
   required: false
-  pattern: \b(Reza)\b
+  pattern: Reza
   type: release_group
 - name: Slyfox
   negate: false
   required: false
-  pattern: \b(Slyfox)\b
+  pattern: Slyfox
   type: release_group
 - name: SoLCE
   negate: false
   required: false
-  pattern: \b(SoLCE)\b
+  pattern: SoLCE
   type: release_group
 - name: Tenshi
   negate: false
   required: false
-  pattern: \[tenshi\]|-tenshi$
+  pattern: Tenshi
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: '0x539'
     negate: false
-    pattern: \b(0x539)\b
+    pattern: '0x539'
     required: false
     type: release_group
   - matches: true
     name: Asakura
     negate: false
-    pattern: \[Asakura\]|-Asakura\b
+    pattern: Asakura
     required: false
     type: release_group
   - matches: true
     name: Cyan
     negate: false
-    pattern: \[Cyan\]|-Cyan\b
+    pattern: Cyan
     required: false
     type: release_group
   - matches: true
     name: Dae
     negate: false
-    pattern: \[Dae\]|-Dae\b
+    pattern: Dae
     required: false
     type: release_group
   - matches: true
     name: Foxtrot
     negate: false
-    pattern: \[Foxtrot\]|-Foxtrot\b
+    pattern: Foxtrot
     required: false
     type: release_group
   - matches: true
     name: Gao
     negate: false
-    pattern: \[Gao\]|-Gao\b
+    pattern: Gao
     required: false
     type: release_group
   - matches: true
     name: GSK_kun
     negate: false
-    pattern: \b(GSK[._-]kun)\b
+    pattern: GSK_kun
     required: false
     type: release_group
   - matches: true
     name: Half-Baked
     negate: false
-    pattern: \b(Half-Baked)\b
+    pattern: Half-Baked
     required: false
     type: release_group
   - matches: true
     name: HatSubs
     negate: false
-    pattern: \b(HatSubs)\b
+    pattern: HatSubs
     required: false
     type: release_group
   - matches: true
     name: MALD
     negate: false
-    pattern: \b(MALD)\b
+    pattern: MALD
     required: false
     type: release_group
   - matches: true
     name: MTBB
     negate: false
-    pattern: \b(MTBB)\b
+    pattern: MTBB
     required: false
     type: release_group
   - matches: true
     name: Not-Vodes
     negate: false
-    pattern: \[Not-Vodes\]|-Not-Vodes\b
+    pattern: Not-Vodes
     required: false
     type: release_group
   - matches: true
     name: Okay-Subs
     negate: false
-    pattern: \b(Okay-Subs)\b
+    pattern: Okay-Subs
     required: false
     type: release_group
   - matches: true
     name: Pizza
     negate: false
-    pattern: \[Pizza\]|-Pizza\b
+    pattern: Pizza
     required: false
     type: release_group
   - matches: true
     name: Reza
     negate: false
-    pattern: \b(Reza)\b
+    pattern: Reza
     required: false
     type: release_group
   - matches: true
     name: Slyfox
     negate: false
-    pattern: \b(Slyfox)\b
+    pattern: Slyfox
     required: false
     type: release_group
   - matches: true
     name: SoLCE
     negate: false
-    pattern: \b(SoLCE)\b
+    pattern: SoLCE
     required: false
     type: release_group
   - matches: true
     name: Tenshi
     negate: false
-    pattern: \[tenshi\]|-tenshi$
+    pattern: Tenshi
     required: false
     type: release_group
   expected: true

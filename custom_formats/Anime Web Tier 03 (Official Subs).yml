@@ -18,36 +18,36 @@ conditions:
 - name: SubsPlease
   negate: false
   required: false
-  pattern: \b(SubsPlease)\b
+  pattern: SubsPlease
   type: release_group
 - name: SubsPlus+
   negate: false
   required: false
-  pattern: \b(SubsPlus\+?)\b
+  pattern: SubsPlus+
   type: release_group
 - name: ZR
   negate: false
   required: false
-  pattern: \b(ZR)\b
+  pattern: ZR
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: SubsPlease
     negate: false
-    pattern: \b(SubsPlease)\b
+    pattern: SubsPlease
     required: false
     type: release_group
   - matches: true
     name: SubsPlus+
     negate: false
-    pattern: \b(SubsPlus\+?)\b
+    pattern: SubsPlus+
     required: false
     type: release_group
   - matches: true
     name: ZR
     negate: false
-    pattern: \b(ZR)\b
+    pattern: ZR
     required: false
     type: release_group
   expected: true

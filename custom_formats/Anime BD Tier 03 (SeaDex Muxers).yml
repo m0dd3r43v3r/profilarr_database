@@ -18,399 +18,399 @@ conditions:
 - name: AC
   negate: false
   required: false
-  pattern: \[AC\]|-AC$
+  pattern: AC
   type: release_group
 - name: ASC
   negate: false
   required: false
-  pattern: \b(ASC)\b
+  pattern: ASC
   type: release_group
 - name: AssMix
   negate: false
   required: false
-  pattern: \b(AssMix)\b
+  pattern: AssMix
   type: release_group
 - name: Ayashii
   negate: false
   required: false
-  pattern: \[Ayashii\]|-Ayashii\b
+  pattern: Ayashii
   type: release_group
 - name: CBT
   negate: false
   required: false
-  pattern: \b(CBT)\b
+  pattern: CBT
   type: release_group
 - name: CRUCiBLE
   negate: false
   required: false
-  pattern: \[CRUCiBLE\]|-CRUCiBLE\b
+  pattern: CRUCiBLE
   type: release_group
 - name: CTR
   negate: false
   required: false
-  pattern: \b(CTR)\b
+  pattern: CTR
   type: release_group
 - name: CyC
   negate: false
   required: false
-  pattern: \b(CyC)\b
+  pattern: CyC
   type: release_group
 - name: Dekinai
   negate: false
   required: false
-  pattern: \[Dekinai\]|-Dekinai\b
+  pattern: Dekinai
   type: release_group
 - name: EXP
   negate: false
   required: false
-  pattern: \[EXP\]|-EXP\b
+  pattern: EXP
   type: release_group
 - name: Flugel
   negate: false
   required: false
-  pattern: \b(Flugel)\b
+  pattern: Flugel
   type: release_group
 - name: Galator
   negate: false
   required: false
-  pattern: \b(Galator)\b
+  pattern: Galator
   type: release_group
 - name: GSK_kun
   negate: false
   required: false
-  pattern: \b(GSK[._-]kun)\b
+  pattern: GSK_kun
   type: release_group
 - name: Holomux
   negate: false
   required: false
-  pattern: \b(Holomux)\b
+  pattern: Holomux
   type: release_group
 - name: IK
   negate: false
   required: false
-  pattern: \b(IK)\b
+  pattern: IK
   type: release_group
 - name: Kaizoku
   negate: false
   required: false
-  pattern: \b(AnimeKaizoku)\b|\[Kaizoku\]|-Kaizoku\b
+  pattern: Kaizoku
   type: release_group
 - name: Kametsu
   negate: false
   required: false
-  pattern: \b(Kametsu)\b
+  pattern: Kametsu
   type: release_group
 - name: KH
   negate: false
   required: false
-  pattern: \b(KH)\b
+  pattern: KH
   type: release_group
 - name: kuchikirukia
   negate: false
   required: false
-  pattern: \b(kuchikirukia)\b
+  pattern: kuchikirukia
   type: release_group
 - name: LazyRemux
   negate: false
   required: false
-  pattern: \b(LazyRemux)\b
+  pattern: LazyRemux
   type: release_group
 - name: MK
   negate: false
   required: false
-  pattern: \b(MK)\b
+  pattern: MK
   type: release_group
 - name: Mysteria
   negate: false
   required: false
-  pattern: \[Mysteria\]|-Mysteria\b
+  pattern: Mysteria
   type: release_group
 - name: NAN0
   negate: false
   required: false
-  pattern: (?<=remux).*\b(NAN0)\b
+  pattern: NAN0
   type: release_group
 - name: Netaro
   negate: false
   required: false
-  pattern: \b(Netaro)\b
+  pattern: Netaro
   type: release_group
 - name: Pn8
   negate: false
   required: false
-  pattern: \b(Pn8)\b
+  pattern: Pn8
   type: release_group
 - name: Pookie
   negate: false
   required: false
-  pattern: \b(Pookie)\b
+  pattern: Pookie
   type: release_group
 - name: Quetzal
   negate: false
   required: false
-  pattern: \b(Quetzal)\b
+  pattern: Quetzal
   type: release_group
 - name: Rasetsu
   negate: false
   required: false
-  pattern: \b(Rasetsu)\b
+  pattern: Rasetsu
   type: release_group
 - name: Senjou
   negate: false
   required: false
-  pattern: \[Senjou\]|-Senjou\b
+  pattern: Senjou
   type: release_group
 - name: ShowY
   negate: false
   required: false
-  pattern: \b(ShowY)\b
+  pattern: ShowY
   type: release_group
 - name: WBDP
   negate: false
   required: false
-  pattern: \b(WBDP)\b
+  pattern: WBDP
   type: release_group
 - name: WSE
   negate: false
   required: false
-  pattern: \b(WSE)\b
+  pattern: WSE
   type: release_group
 - name: Yoghurt
   negate: false
   required: false
-  pattern: \b(Yoghurt)\b
+  pattern: Yoghurt
   type: release_group
 - name: YURI
   negate: false
   required: false
-  pattern: \[YURI\]|-YURI\b
+  pattern: YURI
   type: release_group
 - name: ZOIO
   negate: false
   required: false
-  pattern: \b(ZOIO)\b
+  pattern: ZOIO
   type: release_group
 - name: ZR
   negate: false
   required: false
-  pattern: \b(ZR)\b|-ZR-
+  pattern: ZR
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: AC
     negate: false
-    pattern: \[AC\]|-AC$
+    pattern: AC
     required: false
     type: release_group
   - matches: true
     name: ASC
     negate: false
-    pattern: \b(ASC)\b
+    pattern: ASC
     required: false
     type: release_group
   - matches: true
     name: AssMix
     negate: false
-    pattern: \b(AssMix)\b
+    pattern: AssMix
     required: false
     type: release_group
   - matches: true
     name: Ayashii
     negate: false
-    pattern: \[Ayashii\]|-Ayashii\b
+    pattern: Ayashii
     required: false
     type: release_group
   - matches: true
     name: CBT
     negate: false
-    pattern: \b(CBT)\b
+    pattern: CBT
     required: false
     type: release_group
   - matches: true
     name: CRUCiBLE
     negate: false
-    pattern: \[CRUCiBLE\]|-CRUCiBLE\b
+    pattern: CRUCiBLE
     required: false
     type: release_group
   - matches: true
     name: CTR
     negate: false
-    pattern: \b(CTR)\b
+    pattern: CTR
     required: false
     type: release_group
   - matches: true
     name: CyC
     negate: false
-    pattern: \b(CyC)\b
+    pattern: CyC
     required: false
     type: release_group
   - matches: true
     name: Dekinai
     negate: false
-    pattern: \[Dekinai\]|-Dekinai\b
+    pattern: Dekinai
     required: false
     type: release_group
   - matches: true
     name: EXP
     negate: false
-    pattern: \[EXP\]|-EXP\b
+    pattern: EXP
     required: false
     type: release_group
   - matches: true
     name: Flugel
     negate: false
-    pattern: \b(Flugel)\b
+    pattern: Flugel
     required: false
     type: release_group
   - matches: true
     name: Galator
     negate: false
-    pattern: \b(Galator)\b
+    pattern: Galator
     required: false
     type: release_group
   - matches: true
     name: GSK_kun
     negate: false
-    pattern: \b(GSK[._-]kun)\b
+    pattern: GSK_kun
     required: false
     type: release_group
   - matches: true
     name: Holomux
     negate: false
-    pattern: \b(Holomux)\b
+    pattern: Holomux
     required: false
     type: release_group
   - matches: true
     name: IK
     negate: false
-    pattern: \b(IK)\b
+    pattern: IK
     required: false
     type: release_group
   - matches: true
     name: Kaizoku
     negate: false
-    pattern: \b(AnimeKaizoku)\b|\[Kaizoku\]|-Kaizoku\b
+    pattern: Kaizoku
     required: false
     type: release_group
   - matches: true
     name: Kametsu
     negate: false
-    pattern: \b(Kametsu)\b
+    pattern: Kametsu
     required: false
     type: release_group
   - matches: true
     name: KH
     negate: false
-    pattern: \b(KH)\b
+    pattern: KH
     required: false
     type: release_group
   - matches: true
     name: kuchikirukia
     negate: false
-    pattern: \b(kuchikirukia)\b
+    pattern: kuchikirukia
     required: false
     type: release_group
   - matches: true
     name: LazyRemux
     negate: false
-    pattern: \b(LazyRemux)\b
+    pattern: LazyRemux
     required: false
     type: release_group
   - matches: true
     name: MK
     negate: false
-    pattern: \b(MK)\b
+    pattern: MK
     required: false
     type: release_group
   - matches: true
     name: Mysteria
     negate: false
-    pattern: \[Mysteria\]|-Mysteria\b
+    pattern: Mysteria
     required: false
     type: release_group
   - matches: true
     name: NAN0
     negate: false
-    pattern: (?<=remux).*\b(NAN0)\b
+    pattern: NAN0
     required: false
     type: release_group
   - matches: true
     name: Netaro
     negate: false
-    pattern: \b(Netaro)\b
+    pattern: Netaro
     required: false
     type: release_group
   - matches: true
     name: Pn8
     negate: false
-    pattern: \b(Pn8)\b
+    pattern: Pn8
     required: false
     type: release_group
   - matches: true
     name: Pookie
     negate: false
-    pattern: \b(Pookie)\b
+    pattern: Pookie
     required: false
     type: release_group
   - matches: true
     name: Quetzal
     negate: false
-    pattern: \b(Quetzal)\b
+    pattern: Quetzal
     required: false
     type: release_group
   - matches: true
     name: Rasetsu
     negate: false
-    pattern: \b(Rasetsu)\b
+    pattern: Rasetsu
     required: false
     type: release_group
   - matches: true
     name: Senjou
     negate: false
-    pattern: \[Senjou\]|-Senjou\b
+    pattern: Senjou
     required: false
     type: release_group
   - matches: true
     name: ShowY
     negate: false
-    pattern: \b(ShowY)\b
+    pattern: ShowY
     required: false
     type: release_group
   - matches: true
     name: WBDP
     negate: false
-    pattern: \b(WBDP)\b
+    pattern: WBDP
     required: false
     type: release_group
   - matches: true
     name: WSE
     negate: false
-    pattern: \b(WSE)\b
+    pattern: WSE
     required: false
     type: release_group
   - matches: true
     name: Yoghurt
     negate: false
-    pattern: \b(Yoghurt)\b
+    pattern: Yoghurt
     required: false
     type: release_group
   - matches: true
     name: YURI
     negate: false
-    pattern: \[YURI\]|-YURI\b
+    pattern: YURI
     required: false
     type: release_group
   - matches: true
     name: ZOIO
     negate: false
-    pattern: \b(ZOIO)\b
+    pattern: ZOIO
     required: false
     type: release_group
   - matches: true
     name: ZR
     negate: false
-    pattern: \b(ZR)\b|-ZR-
+    pattern: ZR
     required: false
     type: release_group
   expected: true

@@ -18,69 +18,69 @@ conditions:
 - name: Asenshi
   negate: false
   required: false
-  pattern: \b(Asenshi)\b
+  pattern: Asenshi
   type: release_group
 - name: Chihiro
   negate: false
   required: false
-  pattern: \[Chihiro\]|-Chihiro\b
+  pattern: Chihiro
   type: release_group
 - name: Commie
   negate: false
   required: false
-  pattern: \b(Commie)\b
+  pattern: Commie
   type: release_group
 - name: DameDesuYo
   negate: false
   required: false
-  pattern: \b(DameDesuYo)\b
+  pattern: DameDesuYo
   type: release_group
 - name: Doki
   negate: false
   required: false
-  pattern: \[Doki\]|-Doki\b
+  pattern: Doki
   type: release_group
 - name: Tsundere
   negate: false
   required: false
-  pattern: \[Tsundere\]|-Tsundere(?!-)\b
+  pattern: Tsundere
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: Asenshi
     negate: false
-    pattern: \b(Asenshi)\b
+    pattern: Asenshi
     required: false
     type: release_group
   - matches: true
     name: Chihiro
     negate: false
-    pattern: \[Chihiro\]|-Chihiro\b
+    pattern: Chihiro
     required: false
     type: release_group
   - matches: true
     name: Commie
     negate: false
-    pattern: \b(Commie)\b
+    pattern: Commie
     required: false
     type: release_group
   - matches: true
     name: DameDesuYo
     negate: false
-    pattern: \b(DameDesuYo)\b
+    pattern: DameDesuYo
     required: false
     type: release_group
   - matches: true
     name: Doki
     negate: false
-    pattern: \[Doki\]|-Doki\b
+    pattern: Doki
     required: false
     type: release_group
   - matches: true
     name: Tsundere
     negate: false
-    pattern: \[Tsundere\]|-Tsundere(?!-)\b
+    pattern: Tsundere
     required: false
     type: release_group
   expected: true

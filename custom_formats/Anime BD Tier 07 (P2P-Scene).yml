@@ -18,201 +18,201 @@ conditions:
 - name: A-L
   negate: false
   required: false
-  pattern: \b(A-L)\b
+  pattern: A-L
   type: release_group
 - name: ANiHLS
   negate: false
   required: false
-  pattern: \b(ANiHLS)\b
+  pattern: ANiHLS
   type: release_group
 - name: CBM
   negate: false
   required: false
-  pattern: \b(CBM)\b
+  pattern: CBM
   type: release_group
 - name: DHD
   negate: false
   required: false
-  pattern: \b(DHD)\b
+  pattern: DHD
   type: release_group
 - name: DragsterPS
   negate: false
   required: false
-  pattern: \b(DragsterPS)\b
+  pattern: DragsterPS
   type: release_group
 - name: HAiKU
   negate: false
   required: false
-  pattern: \b(HAiKU)\b
+  pattern: HAiKU
   type: release_group
 - name: Hark0N
   negate: false
   required: false
-  pattern: \b(Hark0N)\b
+  pattern: Hark0N
   type: release_group
 - name: iAHD
   negate: false
   required: false
-  pattern: \b(iAHD)\b
+  pattern: iAHD
   type: release_group
 - name: inid4c
   negate: false
   required: false
-  pattern: \b(inid4c)\b
+  pattern: inid4c
   type: release_group
 - name: KiyoshiStar
   negate: false
   required: false
-  pattern: \b(KS|KiyoshiStar)\b
+  pattern: KiyoshiStar
   type: release_group
 - name: MCR
   negate: false
   required: false
-  pattern: \b(MCR)\b
+  pattern: MCR
   type: release_group
 - name: NPC
   negate: false
   required: false
-  pattern: \[NPC\]|-NPC\b
+  pattern: NPC
   type: release_group
 - name: RedBlade
   negate: false
   required: false
-  pattern: \b(RedBlade)\b
+  pattern: RedBlade
   type: release_group
 - name: RH
   negate: false
   required: false
-  pattern: \b(RH)\b
+  pattern: RH
   type: release_group
 - name: SEV
   negate: false
   required: false
-  pattern: \b(SEV)\b
+  pattern: SEV
   type: release_group
 - name: STRiFE
   negate: false
   required: false
-  pattern: \[STRiFE\]|-STRiFE\b
+  pattern: STRiFE
   type: release_group
 - name: TENEIGHTY
   negate: false
   required: false
-  pattern: \b(TENEIGHTY)\b
+  pattern: TENEIGHTY
   type: release_group
 - name: WaLMaRT
   negate: false
   required: false
-  pattern: \b(WaLMaRT)\b
+  pattern: WaLMaRT
   type: release_group
 tests:
 - conditionResults:
   - matches: true
     name: A-L
     negate: false
-    pattern: \b(A-L)\b
+    pattern: A-L
     required: false
     type: release_group
   - matches: true
     name: ANiHLS
     negate: false
-    pattern: \b(ANiHLS)\b
+    pattern: ANiHLS
     required: false
     type: release_group
   - matches: true
     name: CBM
     negate: false
-    pattern: \b(CBM)\b
+    pattern: CBM
     required: false
     type: release_group
   - matches: true
     name: DHD
     negate: false
-    pattern: \b(DHD)\b
+    pattern: DHD
     required: false
     type: release_group
   - matches: true
     name: DragsterPS
     negate: false
-    pattern: \b(DragsterPS)\b
+    pattern: DragsterPS
     required: false
     type: release_group
   - matches: true
     name: HAiKU
     negate: false
-    pattern: \b(HAiKU)\b
+    pattern: HAiKU
     required: false
     type: release_group
   - matches: true
     name: Hark0N
     negate: false
-    pattern: \b(Hark0N)\b
+    pattern: Hark0N
     required: false
     type: release_group
   - matches: true
     name: iAHD
     negate: false
-    pattern: \b(iAHD)\b
+    pattern: iAHD
     required: false
     type: release_group
   - matches: true
     name: inid4c
     negate: false
-    pattern: \b(inid4c)\b
+    pattern: inid4c
     required: false
     type: release_group
   - matches: true
     name: KiyoshiStar
     negate: false
-    pattern: \b(KS|KiyoshiStar)\b
+    pattern: KiyoshiStar
     required: false
     type: release_group
   - matches: true
     name: MCR
     negate: false
-    pattern: \b(MCR)\b
+    pattern: MCR
     required: false
     type: release_group
   - matches: true
     name: NPC
     negate: false
-    pattern: \[NPC\]|-NPC\b
+    pattern: NPC
     required: false
     type: release_group
   - matches: true
     name: RedBlade
     negate: false
-    pattern: \b(RedBlade)\b
+    pattern: RedBlade
     required: false
     type: release_group
   - matches: true
     name: RH
     negate: false
-    pattern: \b(RH)\b
+    pattern: RH
     required: false
     type: release_group
   - matches: true
     name: SEV
     negate: false
-    pattern: \b(SEV)\b
+    pattern: SEV
     required: false
     type: release_group
   - matches: true
     name: STRiFE
     negate: false
-    pattern: \[STRiFE\]|-STRiFE\b
+    pattern: STRiFE
     required: false
     type: release_group
   - matches: true
     name: TENEIGHTY
     negate: false
-    pattern: \b(TENEIGHTY)\b
+    pattern: TENEIGHTY
     required: false
     type: release_group
   - matches: true
     name: WaLMaRT
     negate: false
-    pattern: \b(WaLMaRT)\b
+    pattern: WaLMaRT
     required: false
     type: release_group
   expected: true
