@@ -6,4 +6,5 @@ description: "Matches the release group `Alt` only if it is:\n\n  - Preceded by 
   \ without being part of a longer word."
 tags:
 - Release Group
+- trash
 tests: []

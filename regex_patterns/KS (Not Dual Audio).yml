@@ -6,4 +6,5 @@ description: "Matches the release group `KS (Not Dual Audio)` only if it is:\n\n
   \ it ends cleanly without being part of a longer word."
 tags:
 - Release Group
+- trash
 tests: []

@@ -6,4 +6,5 @@ description: "Matches the release group `Anime Chap` only if it is:\n\n  - Prece
   \ cleanly without being part of a longer word."
 tags:
 - Release Group
+- trash
 tests: []

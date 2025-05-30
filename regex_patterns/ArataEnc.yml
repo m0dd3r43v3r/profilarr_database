@@ -6,4 +6,5 @@ description: "Matches the release group `ArataEnc` only if it is:\n\n  - Precede
   \ cleanly without being part of a longer word."
 tags:
 - Release Group
+- trash
 tests: []

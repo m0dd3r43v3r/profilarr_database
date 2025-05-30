@@ -4,6 +4,7 @@ tags:
 - Release Group Tier
 - Anime
 - BD
+- trash
 conditions:
 - name: Bluray
   negate: false
